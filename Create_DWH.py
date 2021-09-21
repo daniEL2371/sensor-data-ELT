@@ -6,8 +6,6 @@ import os
 
 SENSOR_DATA = 'SensorData'
 
-
-
 class Create_DWH:
 
   def __init__(self, host: str, user: str, passwd: str) -> None:
