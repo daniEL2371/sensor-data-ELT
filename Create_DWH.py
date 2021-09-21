@@ -46,7 +46,7 @@ if __name__ == "__main__":
 
   TABLE_NAME = "observation"
   a = Create_DWH(host = "localhost", user = "root", passwd = os.getenv('DB_PASS'))
-  a.insertData(SENSOR_DATA, "localhost", "root", os.getenv('DB_PASS'), TABLE_NAME, "./I80_sample.txt" )
+  a.insertData(SENSOR_DATA, "localhost", "root", os.getenv('DB_PASS'), TABLE_NAME, "./data/I80_sample.txt" )
 
 
 
