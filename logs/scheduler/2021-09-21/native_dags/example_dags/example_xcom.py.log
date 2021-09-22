@@ -1,0 +1,133 @@
+[2021-09-22 00:18:38,675] {processor.py:162} INFO - Started process (PID=37050) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:18:38,678] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:18:38,679] {logging_mixin.py:109} INFO - [2021-09-22 00:18:38,679] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:18:38,697] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:18:38,716] {logging_mixin.py:109} INFO - [2021-09-22 00:18:38,716] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:18:38,728] {logging_mixin.py:109} INFO - [2021-09-22 00:18:38,728] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:18:38,743] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.072 seconds
+[2021-09-22 00:19:14,686] {processor.py:162} INFO - Started process (PID=37143) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:19:14,689] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:19:14,691] {logging_mixin.py:109} INFO - [2021-09-22 00:19:14,690] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:19:14,716] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:19:14,736] {logging_mixin.py:109} INFO - [2021-09-22 00:19:14,735] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:19:14,754] {logging_mixin.py:109} INFO - [2021-09-22 00:19:14,753] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:19:14,766] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.087 seconds
+[2021-09-22 00:19:50,272] {processor.py:162} INFO - Started process (PID=37553) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:19:50,275] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:19:50,277] {logging_mixin.py:109} INFO - [2021-09-22 00:19:50,277] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:19:50,305] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:19:50,332] {logging_mixin.py:109} INFO - [2021-09-22 00:19:50,331] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:19:50,354] {logging_mixin.py:109} INFO - [2021-09-22 00:19:50,354] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:19:50,370] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.102 seconds
+[2021-09-22 00:20:27,427] {processor.py:162} INFO - Started process (PID=37604) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:20:27,430] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:20:27,431] {logging_mixin.py:109} INFO - [2021-09-22 00:20:27,431] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:20:27,449] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:20:27,469] {logging_mixin.py:109} INFO - [2021-09-22 00:20:27,469] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:20:27,482] {logging_mixin.py:109} INFO - [2021-09-22 00:20:27,482] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:20:27,494] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.073 seconds
+[2021-09-22 00:22:00,009] {processor.py:162} INFO - Started process (PID=38532) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:22:00,011] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:22:00,012] {logging_mixin.py:109} INFO - [2021-09-22 00:22:00,012] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:22:00,026] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:22:00,042] {logging_mixin.py:109} INFO - [2021-09-22 00:22:00,042] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:22:00,053] {logging_mixin.py:109} INFO - [2021-09-22 00:22:00,053] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:22:00,065] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.060 seconds
+[2021-09-22 00:22:38,841] {processor.py:162} INFO - Started process (PID=38605) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:22:38,844] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:22:38,845] {logging_mixin.py:109} INFO - [2021-09-22 00:22:38,845] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:22:38,862] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:22:38,884] {logging_mixin.py:109} INFO - [2021-09-22 00:22:38,883] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:22:38,899] {logging_mixin.py:109} INFO - [2021-09-22 00:22:38,898] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:22:38,913] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.076 seconds
+[2021-09-22 00:23:14,746] {processor.py:162} INFO - Started process (PID=38648) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:23:14,749] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:23:14,751] {logging_mixin.py:109} INFO - [2021-09-22 00:23:14,750] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:23:14,768] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:23:14,790] {logging_mixin.py:109} INFO - [2021-09-22 00:23:14,789] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:14,804] {logging_mixin.py:109} INFO - [2021-09-22 00:23:14,804] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:23:14,818] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.076 seconds
+[2021-09-22 00:23:49,914] {processor.py:162} INFO - Started process (PID=38717) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:23:49,916] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:23:49,918] {logging_mixin.py:109} INFO - [2021-09-22 00:23:49,917] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:23:49,934] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:23:49,959] {logging_mixin.py:109} INFO - [2021-09-22 00:23:49,959] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:49,975] {logging_mixin.py:109} INFO - [2021-09-22 00:23:49,975] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:23:49,991] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.083 seconds
+[2021-09-22 00:24:25,346] {processor.py:162} INFO - Started process (PID=38811) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:24:25,349] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:24:25,350] {logging_mixin.py:109} INFO - [2021-09-22 00:24:25,350] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:24:25,366] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:24:25,384] {logging_mixin.py:109} INFO - [2021-09-22 00:24:25,384] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:24:25,396] {logging_mixin.py:109} INFO - [2021-09-22 00:24:25,396] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:24:25,409] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.068 seconds
+[2021-09-22 00:34:09,615] {processor.py:162} INFO - Started process (PID=39129) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:34:09,617] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:34:09,618] {logging_mixin.py:109} INFO - [2021-09-22 00:34:09,618] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:34:09,637] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:34:09,654] {logging_mixin.py:109} INFO - [2021-09-22 00:34:09,654] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:09,667] {logging_mixin.py:109} INFO - [2021-09-22 00:34:09,667] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:34:09,679] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.069 seconds
+[2021-09-22 00:34:45,462] {processor.py:162} INFO - Started process (PID=39221) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:34:45,464] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:34:45,465] {logging_mixin.py:109} INFO - [2021-09-22 00:34:45,465] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:34:45,483] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:34:45,502] {logging_mixin.py:109} INFO - [2021-09-22 00:34:45,501] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:45,514] {logging_mixin.py:109} INFO - [2021-09-22 00:34:45,514] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:34:45,527] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2021-09-22 00:35:19,371] {processor.py:162} INFO - Started process (PID=39253) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:35:19,374] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:35:19,375] {logging_mixin.py:109} INFO - [2021-09-22 00:35:19,375] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:35:19,390] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:35:19,409] {logging_mixin.py:109} INFO - [2021-09-22 00:35:19,408] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:35:19,421] {logging_mixin.py:109} INFO - [2021-09-22 00:35:19,421] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:35:19,433] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.066 seconds
+[2021-09-22 00:35:54,115] {processor.py:162} INFO - Started process (PID=39285) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:35:54,117] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:35:54,118] {logging_mixin.py:109} INFO - [2021-09-22 00:35:54,118] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:35:54,133] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:35:54,150] {logging_mixin.py:109} INFO - [2021-09-22 00:35:54,150] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:35:54,162] {logging_mixin.py:109} INFO - [2021-09-22 00:35:54,161] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:35:54,175] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.065 seconds
+[2021-09-22 00:36:25,627] {processor.py:162} INFO - Started process (PID=39323) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:36:25,630] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:36:25,632] {logging_mixin.py:109} INFO - [2021-09-22 00:36:25,631] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:36:25,650] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:36:25,667] {logging_mixin.py:109} INFO - [2021-09-22 00:36:25,667] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:36:25,680] {logging_mixin.py:109} INFO - [2021-09-22 00:36:25,679] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:36:25,700] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.077 seconds
+[2021-09-22 00:37:01,759] {processor.py:162} INFO - Started process (PID=39397) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:37:01,762] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:37:01,763] {logging_mixin.py:109} INFO - [2021-09-22 00:37:01,763] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:37:01,783] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:37:01,801] {logging_mixin.py:109} INFO - [2021-09-22 00:37:01,801] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:37:01,815] {logging_mixin.py:109} INFO - [2021-09-22 00:37:01,814] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:37:01,826] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.072 seconds
+[2021-09-22 00:37:35,124] {processor.py:162} INFO - Started process (PID=39459) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:37:35,126] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:37:35,127] {logging_mixin.py:109} INFO - [2021-09-22 00:37:35,127] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:37:35,144] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:37:35,163] {logging_mixin.py:109} INFO - [2021-09-22 00:37:35,162] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:37:35,176] {logging_mixin.py:109} INFO - [2021-09-22 00:37:35,176] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:37:35,190] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.071 seconds
+[2021-09-22 00:38:11,691] {processor.py:162} INFO - Started process (PID=39553) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:38:11,694] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:38:11,696] {logging_mixin.py:109} INFO - [2021-09-22 00:38:11,696] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:38:11,735] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:38:11,779] {logging_mixin.py:109} INFO - [2021-09-22 00:38:11,778] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:38:11,843] {logging_mixin.py:109} INFO - [2021-09-22 00:38:11,842] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:38:11,878] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.194 seconds
+[2021-09-22 00:38:46,673] {processor.py:162} INFO - Started process (PID=39596) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:38:46,675] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 00:38:46,677] {logging_mixin.py:109} INFO - [2021-09-22 00:38:46,676] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:38:46,692] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 00:38:46,710] {logging_mixin.py:109} INFO - [2021-09-22 00:38:46,709] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:38:46,723] {logging_mixin.py:109} INFO - [2021-09-22 00:38:46,723] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:38:46,736] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.068 seconds
+[2021-09-22 01:18:40,271] {processor.py:162} INFO - Started process (PID=41035) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 01:18:40,273] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-09-22 01:18:40,275] {logging_mixin.py:109} INFO - [2021-09-22 01:18:40,275] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 01:18:40,289] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py
+[2021-09-22 01:18:40,305] {logging_mixin.py:109} INFO - [2021-09-22 01:18:40,305] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 01:18:40,419] {logging_mixin.py:109} INFO - [2021-09-22 01:18:40,419] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2021-09-19 00:00:00+00:00
+[2021-09-22 01:18:40,429] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py took 0.163 seconds

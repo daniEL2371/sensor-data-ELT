@@ -1,0 +1,133 @@
+[2021-09-22 00:18:34,677] {processor.py:162} INFO - Started process (PID=37046) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:18:34,680] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:18:34,681] {logging_mixin.py:109} INFO - [2021-09-22 00:18:34,680] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:18:34,702] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:18:34,723] {logging_mixin.py:109} INFO - [2021-09-22 00:18:34,723] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:18:34,737] {logging_mixin.py:109} INFO - [2021-09-22 00:18:34,736] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:18:34,749] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.077 seconds
+[2021-09-22 00:19:09,813] {processor.py:162} INFO - Started process (PID=37132) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:19:09,817] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:19:09,818] {logging_mixin.py:109} INFO - [2021-09-22 00:19:09,817] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:19:09,834] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:19:09,851] {logging_mixin.py:109} INFO - [2021-09-22 00:19:09,851] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:19:09,863] {logging_mixin.py:109} INFO - [2021-09-22 00:19:09,863] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:19:09,876] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.067 seconds
+[2021-09-22 00:19:45,115] {processor.py:162} INFO - Started process (PID=37177) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:19:45,118] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:19:45,119] {logging_mixin.py:109} INFO - [2021-09-22 00:19:45,119] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:19:45,140] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:19:45,160] {logging_mixin.py:109} INFO - [2021-09-22 00:19:45,160] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:19:45,175] {logging_mixin.py:109} INFO - [2021-09-22 00:19:45,175] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:19:45,189] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.079 seconds
+[2021-09-22 00:20:22,253] {processor.py:162} INFO - Started process (PID=37594) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:20:22,255] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:20:22,258] {logging_mixin.py:109} INFO - [2021-09-22 00:20:22,257] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:20:22,284] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:20:22,310] {logging_mixin.py:109} INFO - [2021-09-22 00:20:22,309] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:20:22,324] {logging_mixin.py:109} INFO - [2021-09-22 00:20:22,324] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:20:22,338] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.091 seconds
+[2021-09-22 00:21:55,993] {processor.py:162} INFO - Started process (PID=38522) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:21:55,996] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:21:55,997] {logging_mixin.py:109} INFO - [2021-09-22 00:21:55,997] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:21:56,013] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:21:56,030] {logging_mixin.py:109} INFO - [2021-09-22 00:21:56,030] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:21:56,041] {logging_mixin.py:109} INFO - [2021-09-22 00:21:56,041] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:21:56,052] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.063 seconds
+[2021-09-22 00:22:33,502] {processor.py:162} INFO - Started process (PID=38601) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:22:33,505] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:22:33,507] {logging_mixin.py:109} INFO - [2021-09-22 00:22:33,506] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:22:33,542] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:22:33,604] {logging_mixin.py:109} INFO - [2021-09-22 00:22:33,604] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:22:33,653] {logging_mixin.py:109} INFO - [2021-09-22 00:22:33,640] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:22:33,710] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.221 seconds
+[2021-09-22 00:23:09,695] {processor.py:162} INFO - Started process (PID=38644) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:23:09,698] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:23:09,699] {logging_mixin.py:109} INFO - [2021-09-22 00:23:09,699] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:23:09,717] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:23:09,736] {logging_mixin.py:109} INFO - [2021-09-22 00:23:09,736] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:09,749] {logging_mixin.py:109} INFO - [2021-09-22 00:23:09,749] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:23:09,763] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.073 seconds
+[2021-09-22 00:23:44,681] {processor.py:162} INFO - Started process (PID=38707) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:23:44,683] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:23:44,684] {logging_mixin.py:109} INFO - [2021-09-22 00:23:44,684] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:23:44,710] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:23:44,733] {logging_mixin.py:109} INFO - [2021-09-22 00:23:44,732] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:44,746] {logging_mixin.py:109} INFO - [2021-09-22 00:23:44,745] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:23:44,756] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.085 seconds
+[2021-09-22 00:24:20,646] {processor.py:162} INFO - Started process (PID=38790) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:24:20,649] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:24:20,650] {logging_mixin.py:109} INFO - [2021-09-22 00:24:20,650] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:24:20,668] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:24:20,686] {logging_mixin.py:109} INFO - [2021-09-22 00:24:20,686] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:24:20,698] {logging_mixin.py:109} INFO - [2021-09-22 00:24:20,698] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:24:20,710] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds
+[2021-09-22 00:34:05,619] {processor.py:162} INFO - Started process (PID=39125) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:34:05,626] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:34:05,627] {logging_mixin.py:109} INFO - [2021-09-22 00:34:05,627] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:34:05,643] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:34:05,661] {logging_mixin.py:109} INFO - [2021-09-22 00:34:05,660] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:05,674] {logging_mixin.py:109} INFO - [2021-09-22 00:34:05,674] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:34:05,685] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.072 seconds
+[2021-09-22 00:34:39,487] {processor.py:162} INFO - Started process (PID=39217) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:34:39,492] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:34:39,494] {logging_mixin.py:109} INFO - [2021-09-22 00:34:39,493] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:34:39,531] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:34:39,579] {logging_mixin.py:109} INFO - [2021-09-22 00:34:39,578] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:39,599] {logging_mixin.py:109} INFO - [2021-09-22 00:34:39,599] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:34:39,619] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.140 seconds
+[2021-09-22 00:35:14,631] {processor.py:162} INFO - Started process (PID=39249) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:35:14,632] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:35:14,633] {logging_mixin.py:109} INFO - [2021-09-22 00:35:14,633] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:35:14,651] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:35:14,679] {logging_mixin.py:109} INFO - [2021-09-22 00:35:14,679] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:35:14,694] {logging_mixin.py:109} INFO - [2021-09-22 00:35:14,694] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:35:14,708] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.082 seconds
+[2021-09-22 00:35:49,204] {processor.py:162} INFO - Started process (PID=39281) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:35:49,206] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:35:49,208] {logging_mixin.py:109} INFO - [2021-09-22 00:35:49,207] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:35:49,226] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:35:49,247] {logging_mixin.py:109} INFO - [2021-09-22 00:35:49,247] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:35:49,260] {logging_mixin.py:109} INFO - [2021-09-22 00:35:49,259] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:35:49,277] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.078 seconds
+[2021-09-22 00:36:21,626] {processor.py:162} INFO - Started process (PID=39313) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:36:21,629] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:36:21,630] {logging_mixin.py:109} INFO - [2021-09-22 00:36:21,630] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:36:21,648] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:36:21,667] {logging_mixin.py:109} INFO - [2021-09-22 00:36:21,667] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:36:21,679] {logging_mixin.py:109} INFO - [2021-09-22 00:36:21,679] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:36:21,700] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.079 seconds
+[2021-09-22 00:36:56,876] {processor.py:162} INFO - Started process (PID=39387) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:36:56,880] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:36:56,882] {logging_mixin.py:109} INFO - [2021-09-22 00:36:56,881] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:36:56,906] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:36:56,933] {logging_mixin.py:109} INFO - [2021-09-22 00:36:56,932] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:36:56,950] {logging_mixin.py:109} INFO - [2021-09-22 00:36:56,949] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:36:56,969] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.101 seconds
+[2021-09-22 00:37:30,908] {processor.py:162} INFO - Started process (PID=39455) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:37:30,909] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:37:30,910] {logging_mixin.py:109} INFO - [2021-09-22 00:37:30,910] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:37:30,928] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:37:30,947] {logging_mixin.py:109} INFO - [2021-09-22 00:37:30,947] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:37:30,961] {logging_mixin.py:109} INFO - [2021-09-22 00:37:30,960] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:37:30,973] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.070 seconds
+[2021-09-22 00:38:06,516] {processor.py:162} INFO - Started process (PID=39549) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:38:06,520] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:38:06,522] {logging_mixin.py:109} INFO - [2021-09-22 00:38:06,521] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:38:06,555] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:38:06,585] {logging_mixin.py:109} INFO - [2021-09-22 00:38:06,585] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:38:06,608] {logging_mixin.py:109} INFO - [2021-09-22 00:38:06,608] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:38:06,631] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.122 seconds
+[2021-09-22 00:38:41,529] {processor.py:162} INFO - Started process (PID=39587) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:38:41,532] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 00:38:41,533] {logging_mixin.py:109} INFO - [2021-09-22 00:38:41,533] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:38:41,557] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 00:38:41,583] {logging_mixin.py:109} INFO - [2021-09-22 00:38:41,583] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:38:41,598] {logging_mixin.py:109} INFO - [2021-09-22 00:38:41,598] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:38:41,611] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.087 seconds
+[2021-09-22 01:18:34,851] {processor.py:162} INFO - Started process (PID=41023) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 01:18:34,853] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-09-22 01:18:34,856] {logging_mixin.py:109} INFO - [2021-09-22 01:18:34,855] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 01:18:34,878] {processor.py:623} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-09-22 01:18:34,899] {logging_mixin.py:109} INFO - [2021-09-22 01:18:34,898] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 01:18:34,918] {logging_mixin.py:109} INFO - [2021-09-22 01:18:34,917] {dag.py:2287} INFO - Setting next_dagrun for example_task_group to 2021-09-19 00:00:00+00:00
+[2021-09-22 01:18:35,031] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.186 seconds

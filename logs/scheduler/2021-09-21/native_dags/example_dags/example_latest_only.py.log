@@ -1,0 +1,140 @@
+[2021-09-22 00:18:26,653] {processor.py:162} INFO - Started process (PID=37038) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:18:26,655] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:18:26,656] {logging_mixin.py:109} INFO - [2021-09-22 00:18:26,655] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:18:26,677] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:18:26,692] {logging_mixin.py:109} INFO - [2021-09-22 00:18:26,692] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:18:26,704] {logging_mixin.py:109} INFO - [2021-09-22 00:18:26,703] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:18:26,716] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.066 seconds
+[2021-09-22 00:19:00,713] {processor.py:162} INFO - Started process (PID=37111) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:19:00,716] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:19:00,718] {logging_mixin.py:109} INFO - [2021-09-22 00:19:00,717] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:19:00,741] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:19:00,772] {logging_mixin.py:109} INFO - [2021-09-22 00:19:00,771] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:19:00,789] {logging_mixin.py:109} INFO - [2021-09-22 00:19:00,789] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:19:00,811] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.104 seconds
+[2021-09-22 00:19:36,989] {processor.py:162} INFO - Started process (PID=37169) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:19:36,992] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:19:36,994] {logging_mixin.py:109} INFO - [2021-09-22 00:19:36,994] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:19:37,011] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:19:37,035] {logging_mixin.py:109} INFO - [2021-09-22 00:19:37,035] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:19:37,049] {logging_mixin.py:109} INFO - [2021-09-22 00:19:37,048] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:19:37,061] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2021-09-22 00:20:14,307] {processor.py:162} INFO - Started process (PID=37586) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:20:14,310] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:20:14,312] {logging_mixin.py:109} INFO - [2021-09-22 00:20:14,312] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:20:14,335] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:20:14,366] {logging_mixin.py:109} INFO - [2021-09-22 00:20:14,365] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:20:14,393] {logging_mixin.py:109} INFO - [2021-09-22 00:20:14,393] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:20:14,415] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.113 seconds
+[2021-09-22 00:20:50,912] {processor.py:162} INFO - Started process (PID=38389) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:20:50,916] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:20:50,917] {logging_mixin.py:109} INFO - [2021-09-22 00:20:50,916] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:20:50,932] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:20:50,956] {logging_mixin.py:109} INFO - [2021-09-22 00:20:50,956] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:20:50,973] {logging_mixin.py:109} INFO - [2021-09-22 00:20:50,973] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:20:50,986] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2021-09-22 00:21:47,898] {processor.py:162} INFO - Started process (PID=38501) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:21:47,899] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:21:47,901] {logging_mixin.py:109} INFO - [2021-09-22 00:21:47,900] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:21:47,913] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:21:47,930] {logging_mixin.py:109} INFO - [2021-09-22 00:21:47,929] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:21:47,941] {logging_mixin.py:109} INFO - [2021-09-22 00:21:47,941] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:21:47,954] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.059 seconds
+[2021-09-22 00:22:23,116] {processor.py:162} INFO - Started process (PID=38587) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:22:23,119] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:22:23,120] {logging_mixin.py:109} INFO - [2021-09-22 00:22:23,120] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:22:23,136] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:22:23,182] {logging_mixin.py:109} INFO - [2021-09-22 00:22:23,182] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:22:23,205] {logging_mixin.py:109} INFO - [2021-09-22 00:22:23,205] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:22:23,239] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.127 seconds
+[2021-09-22 00:23:01,686] {processor.py:162} INFO - Started process (PID=38636) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:23:01,689] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:23:01,690] {logging_mixin.py:109} INFO - [2021-09-22 00:23:01,690] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:23:01,705] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:23:01,723] {logging_mixin.py:109} INFO - [2021-09-22 00:23:01,723] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:01,735] {logging_mixin.py:109} INFO - [2021-09-22 00:23:01,735] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:23:01,748] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.066 seconds
+[2021-09-22 00:23:36,336] {processor.py:162} INFO - Started process (PID=38692) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:23:36,339] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:23:36,340] {logging_mixin.py:109} INFO - [2021-09-22 00:23:36,340] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:23:36,355] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:23:36,373] {logging_mixin.py:109} INFO - [2021-09-22 00:23:36,373] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:36,385] {logging_mixin.py:109} INFO - [2021-09-22 00:23:36,385] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:23:36,397] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.066 seconds
+[2021-09-22 00:24:13,197] {processor.py:162} INFO - Started process (PID=38772) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:24:13,203] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:24:13,208] {logging_mixin.py:109} INFO - [2021-09-22 00:24:13,206] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:24:13,238] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:24:13,272] {logging_mixin.py:109} INFO - [2021-09-22 00:24:13,272] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:24:13,301] {logging_mixin.py:109} INFO - [2021-09-22 00:24:13,301] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:24:13,333] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.147 seconds
+[2021-09-22 00:33:57,584] {processor.py:162} INFO - Started process (PID=39117) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:33:57,587] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:33:57,588] {logging_mixin.py:109} INFO - [2021-09-22 00:33:57,588] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:33:57,602] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:33:57,625] {logging_mixin.py:109} INFO - [2021-09-22 00:33:57,625] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:33:57,639] {logging_mixin.py:109} INFO - [2021-09-22 00:33:57,639] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:33:57,653] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.072 seconds
+[2021-09-22 00:34:30,461] {processor.py:162} INFO - Started process (PID=39200) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:34:30,464] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:34:30,465] {logging_mixin.py:109} INFO - [2021-09-22 00:34:30,465] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:34:30,480] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:34:30,498] {logging_mixin.py:109} INFO - [2021-09-22 00:34:30,498] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:30,511] {logging_mixin.py:109} INFO - [2021-09-22 00:34:30,510] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:34:30,523] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.066 seconds
+[2021-09-22 00:35:07,327] {processor.py:162} INFO - Started process (PID=39241) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:35:07,330] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:35:07,331] {logging_mixin.py:109} INFO - [2021-09-22 00:35:07,331] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:35:07,345] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:35:07,361] {logging_mixin.py:109} INFO - [2021-09-22 00:35:07,361] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:35:07,372] {logging_mixin.py:109} INFO - [2021-09-22 00:35:07,372] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:35:07,384] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.061 seconds
+[2021-09-22 00:35:41,204] {processor.py:162} INFO - Started process (PID=39273) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:35:41,207] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:35:41,209] {logging_mixin.py:109} INFO - [2021-09-22 00:35:41,208] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:35:41,228] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:35:41,251] {logging_mixin.py:109} INFO - [2021-09-22 00:35:41,251] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:35:41,263] {logging_mixin.py:109} INFO - [2021-09-22 00:35:41,263] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:35:41,276] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2021-09-22 00:36:13,626] {processor.py:162} INFO - Started process (PID=39305) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:36:13,628] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:36:13,629] {logging_mixin.py:109} INFO - [2021-09-22 00:36:13,629] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:36:13,645] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:36:13,663] {logging_mixin.py:109} INFO - [2021-09-22 00:36:13,662] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:36:13,676] {logging_mixin.py:109} INFO - [2021-09-22 00:36:13,676] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:36:13,697] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2021-09-22 00:36:48,867] {processor.py:162} INFO - Started process (PID=39367) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:36:48,868] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:36:48,870] {logging_mixin.py:109} INFO - [2021-09-22 00:36:48,869] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:36:48,885] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:36:48,902] {logging_mixin.py:109} INFO - [2021-09-22 00:36:48,902] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:36:48,913] {logging_mixin.py:109} INFO - [2021-09-22 00:36:48,913] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:36:48,925] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.063 seconds
+[2021-09-22 00:37:23,100] {processor.py:162} INFO - Started process (PID=39447) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:37:23,102] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:37:23,103] {logging_mixin.py:109} INFO - [2021-09-22 00:37:23,103] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:37:23,119] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:37:23,138] {logging_mixin.py:109} INFO - [2021-09-22 00:37:23,138] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:37:23,151] {logging_mixin.py:109} INFO - [2021-09-22 00:37:23,150] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:37:23,162] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2021-09-22 00:37:56,935] {processor.py:162} INFO - Started process (PID=39525) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:37:56,937] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:37:56,938] {logging_mixin.py:109} INFO - [2021-09-22 00:37:56,938] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:37:56,954] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:37:56,972] {logging_mixin.py:109} INFO - [2021-09-22 00:37:56,972] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:37:56,987] {logging_mixin.py:109} INFO - [2021-09-22 00:37:56,987] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:37:57,001] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.070 seconds
+[2021-09-22 00:38:32,672] {processor.py:162} INFO - Started process (PID=39577) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:38:32,674] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 00:38:32,676] {logging_mixin.py:109} INFO - [2021-09-22 00:38:32,675] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:38:32,690] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 00:38:32,708] {logging_mixin.py:109} INFO - [2021-09-22 00:38:32,708] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:38:32,721] {logging_mixin.py:109} INFO - [2021-09-22 00:38:32,721] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:38:32,733] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.066 seconds
+[2021-09-22 01:18:25,547] {processor.py:162} INFO - Started process (PID=40987) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 01:18:25,551] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-09-22 01:18:25,552] {logging_mixin.py:109} INFO - [2021-09-22 01:18:25,552] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 01:18:25,566] {processor.py:623} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-09-22 01:18:25,583] {logging_mixin.py:109} INFO - [2021-09-22 01:18:25,583] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 01:18:25,597] {logging_mixin.py:109} INFO - [2021-09-22 01:18:25,597] {dag.py:2287} INFO - Setting next_dagrun for latest_only to 2021-09-19 00:00:00+00:00
+[2021-09-22 01:18:25,607] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.064 seconds

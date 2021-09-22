@@ -1,0 +1,133 @@
+[2021-09-22 00:18:33,102] {processor.py:162} INFO - Started process (PID=37044) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:18:33,104] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:18:33,104] {logging_mixin.py:109} INFO - [2021-09-22 00:18:33,104] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:18:33,127] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:18:33,145] {logging_mixin.py:109} INFO - [2021-09-22 00:18:33,145] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:18:33,159] {logging_mixin.py:109} INFO - [2021-09-22 00:18:33,159] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:18:33,171] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.073 seconds
+[2021-09-22 00:19:08,334] {processor.py:162} INFO - Started process (PID=37130) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:19:08,337] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:19:08,338] {logging_mixin.py:109} INFO - [2021-09-22 00:19:08,338] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:19:08,353] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:19:08,372] {logging_mixin.py:109} INFO - [2021-09-22 00:19:08,371] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:19:08,384] {logging_mixin.py:109} INFO - [2021-09-22 00:19:08,384] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:19:08,415] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.084 seconds
+[2021-09-22 00:19:42,691] {processor.py:162} INFO - Started process (PID=37175) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:19:42,694] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:19:42,696] {logging_mixin.py:109} INFO - [2021-09-22 00:19:42,695] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:19:42,717] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:19:42,736] {logging_mixin.py:109} INFO - [2021-09-22 00:19:42,735] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:19:42,750] {logging_mixin.py:109} INFO - [2021-09-22 00:19:42,750] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:19:42,764] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2021-09-22 00:20:19,830] {processor.py:162} INFO - Started process (PID=37592) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:20:19,833] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:20:19,834] {logging_mixin.py:109} INFO - [2021-09-22 00:20:19,834] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:20:19,849] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:20:19,868] {logging_mixin.py:109} INFO - [2021-09-22 00:20:19,868] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:20:19,884] {logging_mixin.py:109} INFO - [2021-09-22 00:20:19,884] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:20:19,896] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.070 seconds
+[2021-09-22 00:21:53,690] {processor.py:162} INFO - Started process (PID=38514) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:21:53,694] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:21:53,694] {logging_mixin.py:109} INFO - [2021-09-22 00:21:53,694] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:21:53,707] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:21:53,724] {logging_mixin.py:109} INFO - [2021-09-22 00:21:53,724] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:21:53,736] {logging_mixin.py:109} INFO - [2021-09-22 00:21:53,736] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:21:53,748] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.062 seconds
+[2021-09-22 00:22:30,848] {processor.py:162} INFO - Started process (PID=38599) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:22:30,851] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:22:30,853] {logging_mixin.py:109} INFO - [2021-09-22 00:22:30,853] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:22:30,875] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:22:30,904] {logging_mixin.py:109} INFO - [2021-09-22 00:22:30,904] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:22:30,924] {logging_mixin.py:109} INFO - [2021-09-22 00:22:30,924] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:22:30,950] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.110 seconds
+[2021-09-22 00:23:07,284] {processor.py:162} INFO - Started process (PID=38642) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:23:07,289] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:23:07,291] {logging_mixin.py:109} INFO - [2021-09-22 00:23:07,290] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:23:07,308] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:23:07,327] {logging_mixin.py:109} INFO - [2021-09-22 00:23:07,327] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:07,340] {logging_mixin.py:109} INFO - [2021-09-22 00:23:07,339] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:23:07,354] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2021-09-22 00:23:43,056] {processor.py:162} INFO - Started process (PID=38705) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:23:43,058] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:23:43,059] {logging_mixin.py:109} INFO - [2021-09-22 00:23:43,058] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:23:43,075] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:23:43,098] {logging_mixin.py:109} INFO - [2021-09-22 00:23:43,098] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:43,112] {logging_mixin.py:109} INFO - [2021-09-22 00:23:43,111] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:23:43,123] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.072 seconds
+[2021-09-22 00:24:19,653] {processor.py:162} INFO - Started process (PID=38788) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:24:19,656] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:24:19,657] {logging_mixin.py:109} INFO - [2021-09-22 00:24:19,657] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:24:19,675] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:24:19,699] {logging_mixin.py:109} INFO - [2021-09-22 00:24:19,694] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:24:19,714] {logging_mixin.py:109} INFO - [2021-09-22 00:24:19,714] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:24:19,726] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.079 seconds
+[2021-09-22 00:34:03,890] {processor.py:162} INFO - Started process (PID=39123) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:34:03,893] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:34:03,894] {logging_mixin.py:109} INFO - [2021-09-22 00:34:03,894] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:34:03,908] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:34:03,927] {logging_mixin.py:109} INFO - [2021-09-22 00:34:03,927] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:03,939] {logging_mixin.py:109} INFO - [2021-09-22 00:34:03,939] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:34:03,951] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.066 seconds
+[2021-09-22 00:34:36,932] {processor.py:162} INFO - Started process (PID=39213) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:34:36,935] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:34:36,937] {logging_mixin.py:109} INFO - [2021-09-22 00:34:36,937] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:34:36,962] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:34:36,995] {logging_mixin.py:109} INFO - [2021-09-22 00:34:36,995] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:37,024] {logging_mixin.py:109} INFO - [2021-09-22 00:34:37,023] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:34:37,054] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.129 seconds
+[2021-09-22 00:35:13,039] {processor.py:162} INFO - Started process (PID=39247) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:35:13,040] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:35:13,042] {logging_mixin.py:109} INFO - [2021-09-22 00:35:13,041] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:35:13,057] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:35:13,075] {logging_mixin.py:109} INFO - [2021-09-22 00:35:13,074] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:35:13,088] {logging_mixin.py:109} INFO - [2021-09-22 00:35:13,087] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:35:13,099] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.064 seconds
+[2021-09-22 00:35:47,189] {processor.py:162} INFO - Started process (PID=39279) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:35:47,192] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:35:47,193] {logging_mixin.py:109} INFO - [2021-09-22 00:35:47,193] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:35:47,211] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:35:47,232] {logging_mixin.py:109} INFO - [2021-09-22 00:35:47,232] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:35:47,245] {logging_mixin.py:109} INFO - [2021-09-22 00:35:47,244] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:35:47,257] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.072 seconds
+[2021-09-22 00:36:19,826] {processor.py:162} INFO - Started process (PID=39311) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:36:19,831] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:36:19,832] {logging_mixin.py:109} INFO - [2021-09-22 00:36:19,832] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:36:19,852] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:36:19,872] {logging_mixin.py:109} INFO - [2021-09-22 00:36:19,871] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:36:19,889] {logging_mixin.py:109} INFO - [2021-09-22 00:36:19,889] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:36:19,903] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.082 seconds
+[2021-09-22 00:36:55,190] {processor.py:162} INFO - Started process (PID=39379) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:36:55,194] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:36:55,195] {logging_mixin.py:109} INFO - [2021-09-22 00:36:55,195] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:36:55,215] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:36:55,243] {logging_mixin.py:109} INFO - [2021-09-22 00:36:55,241] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:36:55,259] {logging_mixin.py:109} INFO - [2021-09-22 00:36:55,259] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:36:55,274] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.091 seconds
+[2021-09-22 00:37:28,797] {processor.py:162} INFO - Started process (PID=39453) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:37:28,798] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:37:28,799] {logging_mixin.py:109} INFO - [2021-09-22 00:37:28,799] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:37:28,815] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:37:28,832] {logging_mixin.py:109} INFO - [2021-09-22 00:37:28,832] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:37:28,844] {logging_mixin.py:109} INFO - [2021-09-22 00:37:28,844] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:37:28,857] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.065 seconds
+[2021-09-22 00:38:03,635] {processor.py:162} INFO - Started process (PID=39546) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:38:03,639] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:38:03,641] {logging_mixin.py:109} INFO - [2021-09-22 00:38:03,640] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:38:03,660] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:38:03,684] {logging_mixin.py:109} INFO - [2021-09-22 00:38:03,683] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:38:03,700] {logging_mixin.py:109} INFO - [2021-09-22 00:38:03,700] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:38:03,722] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2021-09-22 00:38:39,014] {processor.py:162} INFO - Started process (PID=39585) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:38:39,019] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 00:38:39,021] {logging_mixin.py:109} INFO - [2021-09-22 00:38:39,021] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:38:39,064] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 00:38:39,106] {logging_mixin.py:109} INFO - [2021-09-22 00:38:39,105] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:38:39,140] {logging_mixin.py:109} INFO - [2021-09-22 00:38:39,139] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:38:39,170] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.163 seconds
+[2021-09-22 01:18:32,341] {processor.py:162} INFO - Started process (PID=41009) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 01:18:32,344] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-09-22 01:18:32,345] {logging_mixin.py:109} INFO - [2021-09-22 01:18:32,345] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 01:18:32,359] {processor.py:623} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-22 01:18:32,377] {logging_mixin.py:109} INFO - [2021-09-22 01:18:32,377] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 01:18:32,391] {logging_mixin.py:109} INFO - [2021-09-22 01:18:32,390] {dag.py:2287} INFO - Setting next_dagrun for example_skip_dag to 2021-09-19 00:00:00+00:00
+[2021-09-22 01:18:32,402] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 0.066 seconds

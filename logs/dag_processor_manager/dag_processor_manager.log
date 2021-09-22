@@ -1,0 +1,114 @@
+[2021-09-22 00:55:05,914] {manager.py:604} INFO - Processing files using up to 1 processes at a time 
+[2021-09-22 00:55:05,915] {manager.py:605} INFO - Process each file at most once every 30 seconds
+[2021-09-22 00:55:05,916] {manager.py:607} INFO - Checking for new files in /Users/daniel/sensor-data-ELT/dags every 300 seconds
+[2021-09-22 00:55:05,916] {manager.py:754} INFO - Searching for files in /Users/daniel/sensor-data-ELT/dags
+[2021-09-22 00:55:05,938] {manager.py:757} INFO - There are 32 files in /Users/daniel/sensor-data-ELT/dags
+[2021-09-22 00:55:05,982] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-22 00:55:05,983] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-21 21:50:05.983309+00:00
+[2021-09-22 00:55:07,178] {manager.py:585} INFO - Exiting gracefully upon receiving signal 15
+[2021-09-22 01:02:57,013] {manager.py:604} INFO - Processing files using up to 1 processes at a time 
+[2021-09-22 01:02:57,014] {manager.py:605} INFO - Process each file at most once every 30 seconds
+[2021-09-22 01:02:57,015] {manager.py:607} INFO - Checking for new files in /Users/daniel/sensor-data-ELT/dags every 300 seconds
+[2021-09-22 01:02:57,015] {manager.py:754} INFO - Searching for files in /Users/daniel/sensor-data-ELT/dags
+[2021-09-22 01:02:57,024] {manager.py:757} INFO - There are 32 files in /Users/daniel/sensor-data-ELT/dags
+[2021-09-22 01:02:57,076] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-22 01:02:57,077] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-21 21:57:57.077294+00:00
+[2021-09-22 01:02:58,677] {manager.py:585} INFO - Exiting gracefully upon receiving signal 15
+[2021-09-22 01:18:10,546] {manager.py:604} INFO - Processing files using up to 1 processes at a time 
+[2021-09-22 01:18:10,547] {manager.py:605} INFO - Process each file at most once every 30 seconds
+[2021-09-22 01:18:10,547] {manager.py:607} INFO - Checking for new files in /Users/daniel/sensor-data-ELT/dags every 300 seconds
+[2021-09-22 01:18:10,548] {manager.py:754} INFO - Searching for files in /Users/daniel/sensor-data-ELT/dags
+[2021-09-22 01:18:10,566] {manager.py:757} INFO - There are 32 files in /Users/daniel/sensor-data-ELT/dags
+[2021-09-22 01:18:10,612] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-22 01:18:10,613] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-21 22:13:10.613147+00:00
+[2021-09-22 01:18:20,681] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-22 01:18:20,682] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-21 22:13:20.682412+00:00
+[2021-09-22 01:18:31,061] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-22 01:18:31,062] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-21 22:13:31.062242+00:00
+[2021-09-22 01:18:35,047] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  0           0
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         0           0
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+/Users/daniel/sensor-data-ELT/dags/dbt_run.py                                                                                                               1           0  0.41s           2021-09-21T22:18:11
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.20s           2021-09-21T22:18:12
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2021-09-21T22:18:13
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2021-09-21T22:18:14
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2021-09-21T22:18:15
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.31s           2021-09-21T22:18:17
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2021-09-21T22:18:18
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.20s           2021-09-21T22:18:19
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.41s           2021-09-21T22:18:21
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.31s           2021-09-21T22:18:23
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                1           0  0.21s           2021-09-21T22:18:24
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-09-21T22:18:25
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-09-21T22:18:26
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2021-09-21T22:18:27
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.20s           2021-09-21T22:18:28
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2021-09-21T22:18:30
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2021-09-21T22:18:31
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2021-09-21T22:18:32
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2021-09-21T22:18:35
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2021-09-21T22:18:22
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.30s           2021-09-21T22:18:33
+================================================================================
+[2021-09-22 01:18:41,651] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-22 01:18:41,653] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-21 22:13:41.652966+00:00
+[2021-09-22 01:18:53,115] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-22 01:18:53,117] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-21 22:13:53.117694+00:00
+[2021-09-22 01:19:03,667] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-22 01:19:03,670] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-21 22:14:03.669988+00:00
+[2021-09-22 01:19:34,836] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-22 01:19:34,838] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-21 22:14:34.837953+00:00
+[2021-09-22 01:19:35,058] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-09-21T22:18:49
+/Users/daniel/sensor-data-ELT/dags/dbt_run.py                                                                                                               1           0  0.31s           2021-09-21T22:18:50
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.41s           2021-09-21T22:18:52
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.32s           2021-09-21T22:18:53
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.20s           2021-09-21T22:18:54
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2021-09-21T22:18:55
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.21s           2021-09-21T22:18:56
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.31s           2021-09-21T22:18:57
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.63s           2021-09-21T22:18:59
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.91s           2021-09-21T22:19:01
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.31s           2021-09-21T22:19:03
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                1           0  0.21s           2021-09-21T22:19:35
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-09-21T22:18:25
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-09-21T22:18:26
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2021-09-21T22:18:27
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.20s           2021-09-21T22:18:28
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2021-09-21T22:18:30
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2021-09-21T22:18:31
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2021-09-21T22:18:32
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2021-09-21T22:18:35
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.51s           2021-09-21T22:18:36
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.20s           2021-09-21T22:18:37
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.31s           2021-09-21T22:18:39
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.20s           2021-09-21T22:18:40
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.20s           2021-09-21T22:18:41
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2021-09-21T22:18:43
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.31s           2021-09-21T22:18:44
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.01s           2021-09-21T22:18:46
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.11s           2021-09-21T22:18:48
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.41s           2021-09-21T22:19:02
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.51s           2021-09-21T22:18:41
+/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.30s           2021-09-21T22:18:33
+================================================================================
+[2021-09-22 01:19:36,107] {manager.py:585} INFO - Exiting gracefully upon receiving signal 15

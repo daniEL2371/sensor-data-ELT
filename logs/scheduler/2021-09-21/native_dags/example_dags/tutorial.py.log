@@ -1,0 +1,133 @@
+[2021-09-22 00:18:42,450] {processor.py:162} INFO - Started process (PID=37059) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:18:42,451] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:18:42,452] {logging_mixin.py:109} INFO - [2021-09-22 00:18:42,452] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:18:42,471] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:18:42,490] {logging_mixin.py:109} INFO - [2021-09-22 00:18:42,489] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:18:42,502] {logging_mixin.py:109} INFO - [2021-09-22 00:18:42,502] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:18:42,514] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.068 seconds
+[2021-09-22 00:19:18,091] {processor.py:162} INFO - Started process (PID=37149) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:19:18,094] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:19:18,095] {logging_mixin.py:109} INFO - [2021-09-22 00:19:18,095] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:19:18,114] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:19:18,133] {logging_mixin.py:109} INFO - [2021-09-22 00:19:18,132] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:19:18,149] {logging_mixin.py:109} INFO - [2021-09-22 00:19:18,149] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:19:18,164] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.079 seconds
+[2021-09-22 00:19:54,278] {processor.py:162} INFO - Started process (PID=37566) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:19:54,281] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:19:54,283] {logging_mixin.py:109} INFO - [2021-09-22 00:19:54,282] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:19:54,301] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:19:54,320] {logging_mixin.py:109} INFO - [2021-09-22 00:19:54,320] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:19:54,333] {logging_mixin.py:109} INFO - [2021-09-22 00:19:54,332] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:19:54,347] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2021-09-22 00:20:30,169] {processor.py:162} INFO - Started process (PID=37615) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:20:30,172] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:20:30,174] {logging_mixin.py:109} INFO - [2021-09-22 00:20:30,173] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:20:30,194] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:20:30,220] {logging_mixin.py:109} INFO - [2021-09-22 00:20:30,219] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:20:30,239] {logging_mixin.py:109} INFO - [2021-09-22 00:20:30,239] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:20:30,252] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.089 seconds
+[2021-09-22 00:22:03,053] {processor.py:162} INFO - Started process (PID=38535) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:22:03,056] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:22:03,057] {logging_mixin.py:109} INFO - [2021-09-22 00:22:03,057] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:22:03,070] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:22:03,092] {logging_mixin.py:109} INFO - [2021-09-22 00:22:03,092] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:22:03,104] {logging_mixin.py:109} INFO - [2021-09-22 00:22:03,104] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:22:03,116] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2021-09-22 00:22:43,301] {processor.py:162} INFO - Started process (PID=38617) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:22:43,304] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:22:43,305] {logging_mixin.py:109} INFO - [2021-09-22 00:22:43,305] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:22:43,327] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:22:43,353] {logging_mixin.py:109} INFO - [2021-09-22 00:22:43,353] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:22:43,369] {logging_mixin.py:109} INFO - [2021-09-22 00:22:43,369] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:22:43,386] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds
+[2021-09-22 00:23:17,586] {processor.py:162} INFO - Started process (PID=38651) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:23:17,589] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:23:17,590] {logging_mixin.py:109} INFO - [2021-09-22 00:23:17,590] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:23:17,609] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:23:17,630] {logging_mixin.py:109} INFO - [2021-09-22 00:23:17,629] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:17,643] {logging_mixin.py:109} INFO - [2021-09-22 00:23:17,643] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:23:17,657] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.078 seconds
+[2021-09-22 00:23:52,650] {processor.py:162} INFO - Started process (PID=38726) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:23:52,652] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:23:52,653] {logging_mixin.py:109} INFO - [2021-09-22 00:23:52,653] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:23:52,673] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:23:52,701] {logging_mixin.py:109} INFO - [2021-09-22 00:23:52,700] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:52,714] {logging_mixin.py:109} INFO - [2021-09-22 00:23:52,714] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:23:52,725] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.080 seconds
+[2021-09-22 00:24:29,145] {processor.py:162} INFO - Started process (PID=38820) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:24:29,148] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:24:29,149] {logging_mixin.py:109} INFO - [2021-09-22 00:24:29,149] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:24:29,168] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:24:29,192] {logging_mixin.py:109} INFO - [2021-09-22 00:24:29,191] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:24:29,209] {logging_mixin.py:109} INFO - [2021-09-22 00:24:29,209] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:24:29,224] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds
+[2021-09-22 00:34:13,387] {processor.py:162} INFO - Started process (PID=39138) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:34:13,389] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:34:13,391] {logging_mixin.py:109} INFO - [2021-09-22 00:34:13,390] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:34:13,406] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:34:13,425] {logging_mixin.py:109} INFO - [2021-09-22 00:34:13,425] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:13,439] {logging_mixin.py:109} INFO - [2021-09-22 00:34:13,439] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:34:13,452] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.070 seconds
+[2021-09-22 00:34:49,232] {processor.py:162} INFO - Started process (PID=39224) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:34:49,235] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:34:49,236] {logging_mixin.py:109} INFO - [2021-09-22 00:34:49,236] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:34:49,260] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:34:49,278] {logging_mixin.py:109} INFO - [2021-09-22 00:34:49,278] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:49,294] {logging_mixin.py:109} INFO - [2021-09-22 00:34:49,294] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:34:49,307] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.079 seconds
+[2021-09-22 00:35:23,116] {processor.py:162} INFO - Started process (PID=39256) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:35:23,118] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:35:23,120] {logging_mixin.py:109} INFO - [2021-09-22 00:35:23,119] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:35:23,135] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:35:23,152] {logging_mixin.py:109} INFO - [2021-09-22 00:35:23,152] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:35:23,165] {logging_mixin.py:109} INFO - [2021-09-22 00:35:23,165] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:35:23,177] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2021-09-22 00:35:56,685] {processor.py:162} INFO - Started process (PID=39288) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:35:56,688] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:35:56,690] {logging_mixin.py:109} INFO - [2021-09-22 00:35:56,689] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:35:56,708] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:35:56,727] {logging_mixin.py:109} INFO - [2021-09-22 00:35:56,727] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:35:56,741] {logging_mixin.py:109} INFO - [2021-09-22 00:35:56,741] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:35:56,754] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.076 seconds
+[2021-09-22 00:36:29,202] {processor.py:162} INFO - Started process (PID=39326) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:36:29,207] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:36:29,208] {logging_mixin.py:109} INFO - [2021-09-22 00:36:29,208] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:36:29,225] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:36:29,249] {logging_mixin.py:109} INFO - [2021-09-22 00:36:29,249] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:36:29,265] {logging_mixin.py:109} INFO - [2021-09-22 00:36:29,265] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:36:29,288] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds
+[2021-09-22 00:37:04,860] {processor.py:162} INFO - Started process (PID=39404) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:37:04,862] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:37:04,864] {logging_mixin.py:109} INFO - [2021-09-22 00:37:04,863] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:37:04,881] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:37:04,898] {logging_mixin.py:109} INFO - [2021-09-22 00:37:04,898] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:37:04,909] {logging_mixin.py:109} INFO - [2021-09-22 00:37:04,909] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:37:04,920] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2021-09-22 00:37:38,876] {processor.py:162} INFO - Started process (PID=39462) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:37:38,878] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:37:38,879] {logging_mixin.py:109} INFO - [2021-09-22 00:37:38,878] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:37:38,897] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:37:38,916] {logging_mixin.py:109} INFO - [2021-09-22 00:37:38,916] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:37:38,930] {logging_mixin.py:109} INFO - [2021-09-22 00:37:38,930] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:37:38,943] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.072 seconds
+[2021-09-22 00:38:15,695] {processor.py:162} INFO - Started process (PID=39558) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:38:15,698] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:38:15,699] {logging_mixin.py:109} INFO - [2021-09-22 00:38:15,699] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:38:15,714] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:38:15,739] {logging_mixin.py:109} INFO - [2021-09-22 00:38:15,738] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:38:15,753] {logging_mixin.py:109} INFO - [2021-09-22 00:38:15,752] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:38:15,769] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.082 seconds
+[2021-09-22 00:38:50,459] {processor.py:162} INFO - Started process (PID=39599) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:38:50,461] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 00:38:50,463] {logging_mixin.py:109} INFO - [2021-09-22 00:38:50,462] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:38:50,481] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 00:38:50,507] {logging_mixin.py:109} INFO - [2021-09-22 00:38:50,507] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:38:50,521] {logging_mixin.py:109} INFO - [2021-09-22 00:38:50,520] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:38:50,533] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.082 seconds
+[2021-09-22 01:18:42,938] {processor.py:162} INFO - Started process (PID=41039) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 01:18:42,941] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-09-22 01:18:42,942] {logging_mixin.py:109} INFO - [2021-09-22 01:18:42,941] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 01:18:42,956] {processor.py:623} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2021-09-22 01:18:42,972] {logging_mixin.py:109} INFO - [2021-09-22 01:18:42,972] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 01:18:42,989] {logging_mixin.py:109} INFO - [2021-09-22 01:18:42,989] {dag.py:2287} INFO - Setting next_dagrun for tutorial to 2021-09-19 00:00:00+00:00
+[2021-09-22 01:18:43,093] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.159 seconds

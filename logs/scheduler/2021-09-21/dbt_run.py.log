@@ -1,0 +1,159 @@
+[2021-09-22 00:21:32,973] {processor.py:162} INFO - Started process (PID=38466) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:21:32,975] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:21:32,977] {logging_mixin.py:109} INFO - [2021-09-22 00:21:32,976] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:21:32,993] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:21:34,765] {logging_mixin.py:109} INFO - [2021-09-22 00:21:34,765] {opentelemetry_tracing.py:29} INFO - This service is instrumented using OpenTelemetry. OpenTelemetry could not be imported; please add opentelemetry-api and opentelemetry-instrumentation packages in order to get BigQuery Tracing data.
+[2021-09-22 00:21:34,901] {logging_mixin.py:109} INFO - [2021-09-22 00:21:34,900] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:21:34,907] {logging_mixin.py:109} INFO - [2021-09-22 00:21:34,907] {dag.py:1853} INFO - Creating ORM DAG for dbt_dag
+[2021-09-22 00:21:34,911] {logging_mixin.py:109} INFO - [2021-09-22 00:21:34,911] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-12-23T00:00:00+00:00
+[2021-09-22 00:21:34,920] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 1.951 seconds
+[2021-09-22 00:22:09,177] {processor.py:162} INFO - Started process (PID=38546) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:22:09,179] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:22:09,180] {logging_mixin.py:109} INFO - [2021-09-22 00:22:09,179] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:22:09,194] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:22:09,210] {logging_mixin.py:109} INFO - [2021-09-22 00:22:09,210] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:22:09,221] {logging_mixin.py:109} INFO - [2021-09-22 00:22:09,221] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-12-23T00:00:00+00:00
+[2021-09-22 00:22:09,231] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.058 seconds
+[2021-09-22 00:22:48,379] {processor.py:162} INFO - Started process (PID=38624) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:22:48,383] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:22:48,389] {logging_mixin.py:109} INFO - [2021-09-22 00:22:48,388] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:22:48,425] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:22:48,451] {logging_mixin.py:109} INFO - [2021-09-22 00:22:48,451] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:22:48,477] {logging_mixin.py:109} INFO - [2021-09-22 00:22:48,477] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-12-23T00:00:00+00:00
+[2021-09-22 00:22:48,496] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.129 seconds
+[2021-09-22 00:23:23,919] {processor.py:162} INFO - Started process (PID=38662) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:23:23,926] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:23:23,928] {logging_mixin.py:109} INFO - [2021-09-22 00:23:23,928] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:23:23,968] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:23:24,023] {logging_mixin.py:109} INFO - [2021-09-22 00:23:24,021] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:24,041] {logging_mixin.py:109} INFO - [2021-09-22 00:23:24,041] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-12-23T00:00:00+00:00
+[2021-09-22 00:23:24,055] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.147 seconds
+[2021-09-22 00:23:59,077] {processor.py:162} INFO - Started process (PID=38741) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:23:59,080] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:23:59,081] {logging_mixin.py:109} INFO - [2021-09-22 00:23:59,080] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:23:59,100] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:23:59,124] {logging_mixin.py:109} INFO - [2021-09-22 00:23:59,123] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:59,141] {logging_mixin.py:109} INFO - [2021-09-22 00:23:59,141] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-12-23T00:00:00+00:00
+[2021-09-22 00:23:59,152] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.081 seconds
+[2021-09-22 00:33:43,902] {processor.py:162} INFO - Started process (PID=39089) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:33:43,904] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:33:43,905] {logging_mixin.py:109} INFO - [2021-09-22 00:33:43,905] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:33:43,931] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:33:44,299] {logging_mixin.py:109} INFO - [2021-09-22 00:33:44,299] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:33:44,322] {logging_mixin.py:109} INFO - [2021-09-22 00:33:44,322] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:00:00+00:00
+[2021-09-22 00:33:44,335] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.437 seconds
+[2021-09-22 00:34:18,737] {processor.py:162} INFO - Started process (PID=39149) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:34:18,740] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:34:18,741] {logging_mixin.py:109} INFO - [2021-09-22 00:34:18,741] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:34:18,761] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:34:18,778] {logging_mixin.py:109} INFO - [2021-09-22 00:34:18,778] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:18,800] {logging_mixin.py:109} INFO - [2021-09-22 00:34:18,799] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:00:00+00:00
+[2021-09-22 00:34:18,811] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.078 seconds
+[2021-09-22 00:34:54,406] {processor.py:162} INFO - Started process (PID=39229) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:34:54,409] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:34:54,411] {logging_mixin.py:109} INFO - [2021-09-22 00:34:54,410] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:34:54,435] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:34:54,452] {logging_mixin.py:109} INFO - [2021-09-22 00:34:54,452] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:54,475] {logging_mixin.py:109} INFO - [2021-09-22 00:34:54,475] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:00:00+00:00
+[2021-09-22 00:34:54,487] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.086 seconds
+[2021-09-22 00:35:28,545] {processor.py:162} INFO - Started process (PID=39261) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:35:28,548] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:35:28,549] {logging_mixin.py:109} INFO - [2021-09-22 00:35:28,548] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:35:28,569] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:35:28,587] {logging_mixin.py:109} INFO - [2021-09-22 00:35:28,586] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:35:28,607] {logging_mixin.py:109} INFO - [2021-09-22 00:35:28,607] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:00:00+00:00
+[2021-09-22 00:35:28,619] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.078 seconds
+[2021-09-22 00:36:01,194] {processor.py:162} INFO - Started process (PID=39293) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:36:01,196] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:36:01,197] {logging_mixin.py:109} INFO - [2021-09-22 00:36:01,197] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:36:01,217] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:36:01,234] {logging_mixin.py:109} INFO - [2021-09-22 00:36:01,234] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:36:01,257] {logging_mixin.py:109} INFO - [2021-09-22 00:36:01,256] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:00:00+00:00
+[2021-09-22 00:36:01,266] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.077 seconds
+[2021-09-22 00:36:34,849] {processor.py:162} INFO - Started process (PID=39337) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:36:34,852] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:36:34,853] {logging_mixin.py:109} INFO - [2021-09-22 00:36:34,853] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:36:34,872] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:36:34,888] {logging_mixin.py:109} INFO - [2021-09-22 00:36:34,887] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:36:34,909] {logging_mixin.py:109} INFO - [2021-09-22 00:36:34,909] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:00:00+00:00
+[2021-09-22 00:36:34,918] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.073 seconds
+[2021-09-22 00:37:10,324] {processor.py:162} INFO - Started process (PID=39419) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:37:10,326] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:37:10,327] {logging_mixin.py:109} INFO - [2021-09-22 00:37:10,327] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:37:10,346] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:37:10,370] {logging_mixin.py:109} INFO - [2021-09-22 00:37:10,369] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:37:10,391] {logging_mixin.py:109} INFO - [2021-09-22 00:37:10,391] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:00:00+00:00
+[2021-09-22 00:37:10,401] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.081 seconds
+[2021-09-22 00:37:44,298] {processor.py:162} INFO - Started process (PID=39477) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:37:44,300] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:37:44,302] {logging_mixin.py:109} INFO - [2021-09-22 00:37:44,301] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:37:44,322] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:37:44,339] {logging_mixin.py:109} INFO - [2021-09-22 00:37:44,339] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:37:44,364] {logging_mixin.py:109} INFO - [2021-09-22 00:37:44,364] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:00:00+00:00
+[2021-09-22 00:37:44,375] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.083 seconds
+[2021-09-22 00:38:20,869] {processor.py:162} INFO - Started process (PID=39565) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:38:20,872] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:38:20,874] {logging_mixin.py:109} INFO - [2021-09-22 00:38:20,874] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:38:20,898] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:38:20,921] {logging_mixin.py:109} INFO - [2021-09-22 00:38:20,921] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:38:20,947] {logging_mixin.py:109} INFO - [2021-09-22 00:38:20,947] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:00:00+00:00
+[2021-09-22 00:38:20,962] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.106 seconds
+[2021-09-22 00:41:47,725] {processor.py:162} INFO - Started process (PID=39711) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:41:47,728] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:41:47,729] {logging_mixin.py:109} INFO - [2021-09-22 00:41:47,729] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:41:47,752] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:41:47,769] {logging_mixin.py:109} INFO - [2021-09-22 00:41:47,769] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:41:47,788] {logging_mixin.py:109} INFO - [2021-09-22 00:41:47,787] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:02:00+00:00
+[2021-09-22 00:41:47,797] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.076 seconds
+[2021-09-22 00:45:46,773] {processor.py:162} INFO - Started process (PID=39775) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:45:46,774] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:45:46,775] {logging_mixin.py:109} INFO - [2021-09-22 00:45:46,775] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:45:46,793] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:45:46,808] {logging_mixin.py:109} INFO - [2021-09-22 00:45:46,808] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:45:46,828] {logging_mixin.py:109} INFO - [2021-09-22 00:45:46,828] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:03:00+00:00
+[2021-09-22 00:45:46,838] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.070 seconds
+[2021-09-22 00:55:06,007] {processor.py:162} INFO - Started process (PID=39963) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:55:06,010] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 00:55:06,011] {logging_mixin.py:109} INFO - [2021-09-22 00:55:06,011] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:55:06,033] {logging_mixin.py:109} INFO - [2021-09-22 00:55:06,028] {dagbag.py:329} ERROR - Failed to import: /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+Traceback (most recent call last):
+  File "/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/daniel/sensor-data-ELT/dags/dbt_run.py", line 35, in <module>
+    dag=dag
+  File "/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/operators/bash.py", line 139, in __init__
+    super().__init__(**kwargs)
+  File "/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 518, in __init__
+    validate_key(task_id)
+  File "/Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/utils/helpers.py", line 48, in validate_key
+    "dots and underscores exclusively".format(k=k)
+airflow.exceptions.AirflowException: The key (cd sensor-data-dbt; dbt_test) has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2021-09-22 00:55:06,034] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 00:55:06,046] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.042 seconds
+[2021-09-22 01:02:57,101] {processor.py:162} INFO - Started process (PID=40181) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 01:02:57,103] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 01:02:57,104] {logging_mixin.py:109} INFO - [2021-09-22 01:02:57,103] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 01:02:57,125] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 01:02:57,525] {logging_mixin.py:109} INFO - [2021-09-22 01:02:57,524] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 01:02:57,544] {logging_mixin.py:109} INFO - [2021-09-22 01:02:57,544] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:05:00+00:00
+[2021-09-22 01:02:57,554] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.458 seconds
+[2021-09-22 01:18:10,641] {processor.py:162} INFO - Started process (PID=40953) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 01:18:10,643] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 01:18:10,644] {logging_mixin.py:109} INFO - [2021-09-22 01:18:10,644] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 01:18:10,669] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 01:18:10,988] {logging_mixin.py:109} INFO - [2021-09-22 01:18:10,988] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 01:18:11,006] {logging_mixin.py:109} INFO - [2021-09-22 01:18:11,006] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:00:00+00:00
+[2021-09-22 01:18:11,017] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.381 seconds
+[2021-09-22 01:18:50,302] {processor.py:162} INFO - Started process (PID=41065) to work on /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 01:18:50,306] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dags/dbt_run.py for tasks to queue
+[2021-09-22 01:18:50,307] {logging_mixin.py:109} INFO - [2021-09-22 01:18:50,307] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 01:18:50,334] {processor.py:623} INFO - DAG(s) dict_keys(['dbt_dag']) retrieved from /Users/daniel/sensor-data-ELT/dags/dbt_run.py
+[2021-09-22 01:18:50,362] {logging_mixin.py:109} INFO - [2021-09-22 01:18:50,362] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 01:18:50,545] {logging_mixin.py:109} INFO - [2021-09-22 01:18:50,545] {dag.py:2287} INFO - Setting next_dagrun for dbt_dag to 2020-09-22T00:00:00+00:00
+[2021-09-22 01:18:50,557] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dags/dbt_run.py took 0.260 seconds

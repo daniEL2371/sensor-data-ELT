@@ -1,0 +1,85 @@
+[2021-09-22 00:18:46,767] {processor.py:162} INFO - Started process (PID=37065) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:18:46,769] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:18:46,770] {logging_mixin.py:109} INFO - [2021-09-22 00:18:46,769] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:18:46,777] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:18:46,788] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.026 seconds
+[2021-09-22 00:19:22,963] {processor.py:162} INFO - Started process (PID=37155) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:19:22,977] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:19:22,981] {logging_mixin.py:109} INFO - [2021-09-22 00:19:22,980] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:19:22,990] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:19:23,028] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.080 seconds
+[2021-09-22 00:19:59,123] {processor.py:162} INFO - Started process (PID=37574) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:19:59,127] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:19:59,128] {logging_mixin.py:109} INFO - [2021-09-22 00:19:59,128] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:19:59,134] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:19:59,147] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.031 seconds
+[2021-09-22 00:20:35,347] {processor.py:162} INFO - Started process (PID=37626) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:20:35,351] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:20:35,353] {logging_mixin.py:109} INFO - [2021-09-22 00:20:35,353] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:20:35,364] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:20:35,385] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.047 seconds
+[2021-09-22 00:22:08,077] {processor.py:162} INFO - Started process (PID=38545) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:22:08,079] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:22:08,081] {logging_mixin.py:109} INFO - [2021-09-22 00:22:08,080] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:22:08,085] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:22:08,097] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.024 seconds
+[2021-09-22 00:22:47,190] {processor.py:162} INFO - Started process (PID=38623) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:22:47,193] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:22:47,195] {logging_mixin.py:109} INFO - [2021-09-22 00:22:47,194] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:22:47,203] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:22:47,214] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.031 seconds
+[2021-09-22 00:23:22,732] {processor.py:162} INFO - Started process (PID=38661) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:23:22,735] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:23:22,736] {logging_mixin.py:109} INFO - [2021-09-22 00:23:22,736] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:23:22,741] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:23:22,751] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2021-09-22 00:23:58,659] {processor.py:162} INFO - Started process (PID=38740) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:23:58,663] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:23:58,666] {logging_mixin.py:109} INFO - [2021-09-22 00:23:58,665] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:23:58,682] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:23:58,697] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.047 seconds
+[2021-09-22 00:34:17,589] {processor.py:162} INFO - Started process (PID=39142) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:34:17,592] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:34:17,593] {logging_mixin.py:109} INFO - [2021-09-22 00:34:17,593] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:34:17,598] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:34:17,605] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2021-09-22 00:34:53,251] {processor.py:162} INFO - Started process (PID=39228) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:34:53,253] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:34:53,254] {logging_mixin.py:109} INFO - [2021-09-22 00:34:53,254] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:34:53,258] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:34:53,267] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2021-09-22 00:35:27,435] {processor.py:162} INFO - Started process (PID=39260) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:35:27,437] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:35:27,438] {logging_mixin.py:109} INFO - [2021-09-22 00:35:27,438] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:35:27,444] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:35:27,454] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.024 seconds
+[2021-09-22 00:36:00,036] {processor.py:162} INFO - Started process (PID=39292) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:36:00,039] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:36:00,040] {logging_mixin.py:109} INFO - [2021-09-22 00:36:00,039] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:36:00,045] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:36:00,054] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2021-09-22 00:36:33,699] {processor.py:162} INFO - Started process (PID=39336) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:36:33,702] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:36:33,704] {logging_mixin.py:109} INFO - [2021-09-22 00:36:33,703] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:36:33,708] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:36:33,717] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.026 seconds
+[2021-09-22 00:37:09,168] {processor.py:162} INFO - Started process (PID=39418) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:37:09,171] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:37:09,172] {logging_mixin.py:109} INFO - [2021-09-22 00:37:09,172] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:37:09,177] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:37:09,186] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2021-09-22 00:37:43,337] {processor.py:162} INFO - Started process (PID=39468) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:37:43,342] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:37:43,345] {logging_mixin.py:109} INFO - [2021-09-22 00:37:43,344] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:37:43,367] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:37:43,387] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.060 seconds
+[2021-09-22 00:38:20,429] {processor.py:162} INFO - Started process (PID=39564) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:38:20,432] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 00:38:20,433] {logging_mixin.py:109} INFO - [2021-09-22 00:38:20,433] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:38:20,437] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 00:38:20,446] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2021-09-22 01:18:49,131] {processor.py:162} INFO - Started process (PID=41062) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 01:18:49,134] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-09-22 01:18:49,135] {logging_mixin.py:109} INFO - [2021-09-22 01:18:49,135] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 01:18:49,143] {processor.py:625} WARNING - No viable dags retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-09-22 01:18:49,154] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.029 seconds

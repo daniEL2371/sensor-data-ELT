@@ -1,0 +1,147 @@
+[2021-09-22 00:18:17,852] {processor.py:162} INFO - Started process (PID=37021) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:18:17,854] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:18:17,855] {logging_mixin.py:109} INFO - [2021-09-22 00:18:17,855] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:18:17,875] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:18:17,897] {logging_mixin.py:109} INFO - [2021-09-22 00:18:17,897] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:18:17,922] {logging_mixin.py:109} INFO - [2021-09-22 00:18:17,922] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:18:17,937] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.089 seconds
+[2021-09-22 00:18:52,771] {processor.py:162} INFO - Started process (PID=37089) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:18:52,773] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:18:52,774] {logging_mixin.py:109} INFO - [2021-09-22 00:18:52,774] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:18:52,793] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:18:52,812] {logging_mixin.py:109} INFO - [2021-09-22 00:18:52,812] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:18:52,831] {logging_mixin.py:109} INFO - [2021-09-22 00:18:52,831] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:18:52,844] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.077 seconds
+[2021-09-22 00:19:28,667] {processor.py:162} INFO - Started process (PID=37162) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:19:28,673] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:19:28,675] {logging_mixin.py:109} INFO - [2021-09-22 00:19:28,674] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:19:28,698] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:19:28,720] {logging_mixin.py:109} INFO - [2021-09-22 00:19:28,719] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:19:28,744] {logging_mixin.py:109} INFO - [2021-09-22 00:19:28,743] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:19:28,756] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.096 seconds
+[2021-09-22 00:20:05,102] {processor.py:162} INFO - Started process (PID=37579) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:20:05,105] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:20:05,107] {logging_mixin.py:109} INFO - [2021-09-22 00:20:05,106] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:20:05,136] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:20:05,162] {logging_mixin.py:109} INFO - [2021-09-22 00:20:05,162] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:20:05,190] {logging_mixin.py:109} INFO - [2021-09-22 00:20:05,190] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:20:05,208] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.111 seconds
+[2021-09-22 00:20:42,169] {processor.py:162} INFO - Started process (PID=38021) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:20:42,171] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:20:42,172] {logging_mixin.py:109} INFO - [2021-09-22 00:20:42,172] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:20:42,209] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:20:42,237] {logging_mixin.py:109} INFO - [2021-09-22 00:20:42,237] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:20:42,279] {logging_mixin.py:109} INFO - [2021-09-22 00:20:42,279] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:20:42,296] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.134 seconds
+[2021-09-22 00:21:40,224] {processor.py:162} INFO - Started process (PID=38486) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:21:40,227] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:21:40,228] {logging_mixin.py:109} INFO - [2021-09-22 00:21:40,228] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:21:40,246] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:21:40,273] {logging_mixin.py:109} INFO - [2021-09-22 00:21:40,273] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:21:40,296] {logging_mixin.py:109} INFO - [2021-09-22 00:21:40,296] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:21:40,308] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.088 seconds
+[2021-09-22 00:22:14,352] {processor.py:162} INFO - Started process (PID=38563) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:22:14,354] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:22:14,355] {logging_mixin.py:109} INFO - [2021-09-22 00:22:14,355] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:22:14,376] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:22:14,394] {logging_mixin.py:109} INFO - [2021-09-22 00:22:14,394] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:22:14,418] {logging_mixin.py:109} INFO - [2021-09-22 00:22:14,417] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:22:14,430] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2021-09-22 00:22:53,724] {processor.py:162} INFO - Started process (PID=38629) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:22:53,727] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:22:53,728] {logging_mixin.py:109} INFO - [2021-09-22 00:22:53,728] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:22:53,757] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:22:53,782] {logging_mixin.py:109} INFO - [2021-09-22 00:22:53,781] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:22:53,819] {logging_mixin.py:109} INFO - [2021-09-22 00:22:53,819] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:22:53,834] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.125 seconds
+[2021-09-22 00:23:29,053] {processor.py:162} INFO - Started process (PID=38673) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:23:29,056] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:23:29,057] {logging_mixin.py:109} INFO - [2021-09-22 00:23:29,056] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:23:29,077] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:23:29,095] {logging_mixin.py:109} INFO - [2021-09-22 00:23:29,095] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:23:29,116] {logging_mixin.py:109} INFO - [2021-09-22 00:23:29,116] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:23:29,128] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.079 seconds
+[2021-09-22 00:24:04,237] {processor.py:162} INFO - Started process (PID=38753) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:24:04,240] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:24:04,242] {logging_mixin.py:109} INFO - [2021-09-22 00:24:04,242] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:24:04,267] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:24:04,291] {logging_mixin.py:109} INFO - [2021-09-22 00:24:04,291] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:24:04,320] {logging_mixin.py:109} INFO - [2021-09-22 00:24:04,319] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:24:04,334] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.102 seconds
+[2021-09-22 00:33:50,008] {processor.py:162} INFO - Started process (PID=39102) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:33:50,011] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:33:50,013] {logging_mixin.py:109} INFO - [2021-09-22 00:33:50,012] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:33:50,035] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:33:50,057] {logging_mixin.py:109} INFO - [2021-09-22 00:33:50,056] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:33:50,079] {logging_mixin.py:109} INFO - [2021-09-22 00:33:50,079] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:33:50,090] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.088 seconds
+[2021-09-22 00:34:23,600] {processor.py:162} INFO - Started process (PID=39170) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:34:23,602] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:34:23,603] {logging_mixin.py:109} INFO - [2021-09-22 00:34:23,603] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:34:23,621] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:34:23,646] {logging_mixin.py:109} INFO - [2021-09-22 00:34:23,646] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:23,667] {logging_mixin.py:109} INFO - [2021-09-22 00:34:23,666] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:34:23,678] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2021-09-22 00:34:59,465] {processor.py:162} INFO - Started process (PID=39234) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:34:59,468] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:34:59,469] {logging_mixin.py:109} INFO - [2021-09-22 00:34:59,469] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:34:59,489] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:34:59,508] {logging_mixin.py:109} INFO - [2021-09-22 00:34:59,508] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:34:59,531] {logging_mixin.py:109} INFO - [2021-09-22 00:34:59,530] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:34:59,543] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2021-09-22 00:35:33,716] {processor.py:162} INFO - Started process (PID=39266) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:35:33,719] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:35:33,720] {logging_mixin.py:109} INFO - [2021-09-22 00:35:33,720] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:35:33,739] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:35:33,757] {logging_mixin.py:109} INFO - [2021-09-22 00:35:33,757] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:35:33,778] {logging_mixin.py:109} INFO - [2021-09-22 00:35:33,778] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:35:33,790] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.078 seconds
+[2021-09-22 00:36:06,159] {processor.py:162} INFO - Started process (PID=39298) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:36:06,162] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:36:06,163] {logging_mixin.py:109} INFO - [2021-09-22 00:36:06,163] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:36:06,182] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:36:06,199] {logging_mixin.py:109} INFO - [2021-09-22 00:36:06,199] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:36:06,218] {logging_mixin.py:109} INFO - [2021-09-22 00:36:06,218] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:36:06,231] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.076 seconds
+[2021-09-22 00:36:40,864] {processor.py:162} INFO - Started process (PID=39354) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:36:40,868] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:36:40,875] {logging_mixin.py:109} INFO - [2021-09-22 00:36:40,874] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:36:40,933] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:36:40,965] {logging_mixin.py:109} INFO - [2021-09-22 00:36:40,964] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:36:40,995] {logging_mixin.py:109} INFO - [2021-09-22 00:36:40,994] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:36:41,011] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.181 seconds
+[2021-09-22 00:37:15,488] {processor.py:162} INFO - Started process (PID=39432) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:37:15,490] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:37:15,491] {logging_mixin.py:109} INFO - [2021-09-22 00:37:15,491] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:37:15,512] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:37:15,539] {logging_mixin.py:109} INFO - [2021-09-22 00:37:15,539] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:37:15,573] {logging_mixin.py:109} INFO - [2021-09-22 00:37:15,573] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:37:15,592] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.109 seconds
+[2021-09-22 00:37:49,455] {processor.py:162} INFO - Started process (PID=39509) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:37:49,457] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:37:49,459] {logging_mixin.py:109} INFO - [2021-09-22 00:37:49,458] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:37:49,480] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:37:49,499] {logging_mixin.py:109} INFO - [2021-09-22 00:37:49,499] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:37:49,520] {logging_mixin.py:109} INFO - [2021-09-22 00:37:49,520] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:37:49,532] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2021-09-22 00:38:26,134] {processor.py:162} INFO - Started process (PID=39570) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:38:26,136] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 00:38:26,137] {logging_mixin.py:109} INFO - [2021-09-22 00:38:26,137] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:38:26,156] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 00:38:26,176] {logging_mixin.py:109} INFO - [2021-09-22 00:38:26,175] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 00:38:26,195] {logging_mixin.py:109} INFO - [2021-09-22 00:38:26,195] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 00:38:26,207] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.078 seconds
+[2021-09-22 01:18:16,718] {processor.py:162} INFO - Started process (PID=40966) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 01:18:16,720] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 01:18:16,721] {logging_mixin.py:109} INFO - [2021-09-22 01:18:16,720] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 01:18:16,751] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 01:18:16,788] {logging_mixin.py:109} INFO - [2021-09-22 01:18:16,788] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 01:18:16,985] {logging_mixin.py:109} INFO - [2021-09-22 01:18:16,984] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 01:18:17,001] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.288 seconds
+[2021-09-22 01:18:56,262] {processor.py:162} INFO - Started process (PID=41076) to work on /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 01:18:56,264] {processor.py:613} INFO - Processing file /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2021-09-22 01:18:56,265] {logging_mixin.py:109} INFO - [2021-09-22 01:18:56,265] {dagbag.py:496} INFO - Filling up the DagBag from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 01:18:56,282] {processor.py:623} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-22 01:18:56,302] {logging_mixin.py:109} INFO - [2021-09-22 01:18:56,301] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-22 01:18:56,416] {logging_mixin.py:109} INFO - [2021-09-22 01:18:56,416] {dag.py:2287} INFO - Setting next_dagrun for example_branch_operator to 2021-09-19 00:00:00+00:00
+[2021-09-22 01:18:56,426] {processor.py:170} INFO - Processing /Users/daniel/sensor-data-ELT/dbt-env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 0.169 seconds
