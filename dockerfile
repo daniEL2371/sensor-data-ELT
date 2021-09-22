@@ -1,15 +1,18 @@
 FROM python:3.7
-RUN pip install 'apache-airflow[postgres]==1.10.14' && pip install dbt==0.15
-RUN pip install SQLAlchemy==1.3.23
+
+
 RUN mkdir /sensordataelt
+
+COPY requirements.txt /sensordataelt/requirements.txt
+RUN pip install -r /sensordataelt/requirements.txt 
+
 COPY scripts_airflow/ /sensordataelt/scripts/
-COPY sensor-data-dbt/ /sensordataelt/scripts/
+COPY scripts/Create_DWH.py /sensordataelt/scripts/Create_DWH.py
 
-COPY requirements.txt/ /sensordataelt/scripts/
+COPY sensor-data-dbt/profiles.yml /root/.dbt/profiles.yml 
 
 
 
-RUN mkdir /project
 
-RUN chmod +x /project/scripts/init.sh
-ENTRYPOINT [ "/project/scripts/init.sh" ]
+RUN chmod +x /sensordataelt/scripts/init.sh
+ENTRYPOINT [ "/sensordataelt/scripts/init.sh" ]

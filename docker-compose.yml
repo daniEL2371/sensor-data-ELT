@@ -13,21 +13,20 @@ services:
     restart: always
     volumes:
       - ./scripts_postgres:/docker-entrypoint-initdb.d
-      # - ./sample_data:/sample_data
 
- mysqldb:
-    image: mysql:5.7
-    environment:
-      MYSQL_ROOT_USER: root
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: testdb
-    container_name: mysql_container
-    expose:
-      - 3310
-    ports:
-      - 3310:3310
-    volumes:
-      - ./sample_data:/sample_data
+  mysqldb:
+      image: mysql:5.7
+      environment:
+        MYSQL_ROOT_USER: root
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: testdb
+      container_name: mysql_container
+      expose:
+        - 3310
+      ports:
+        - 3310:3310
+      volumes:
+        - ./sample_data:/sample_data
 
   airflow:
     build: .
