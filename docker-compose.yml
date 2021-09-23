@@ -18,7 +18,8 @@ services:
   mysql-dbt:
     image: mysql:5.7
     environment:
-     MYSQL_ROOT_USER: dbtuser
+     MYSQL_USER: dbtuser,
+     MYSQL_PASSWORD: pssd
      MYSQL_ROOT_PASSWORD: pssd
      MYSQL_DATABASE: analytics
     expose:
@@ -46,8 +47,17 @@ services:
       POSTGRES_DB: airflowdb
       # postgres-dbt connection details. Required for the inital loading of seed data
       # Credentials need to match with service postgres-dbt
+      
+      DBT_MYSQL_USER: dbtuser,
+      DBT_MYSQL_PASSWORD: pssd
+      DBT_MYSQL_HOST: mysql-dbt
+      MYSQL_PORT: 3306
+      DBT_MYSQL_DB: analytics
+
+      ## this is unnessacry
+      
       DBT_POSTGRES_PASSWORD: pssd
-      DBT_POSTGRES_USER : dbtuser
+      DBT_POSTGRES_USER : dbtuser,
       DBT_POSTGRES_DB : dbtdb
       DBT_DBT_SCHEMA: dbt
       DBT_DBT_RAW_DATA_SCHEMA: dbt_raw_data
