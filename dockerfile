@@ -1,18 +1,13 @@
-FROM python:3.7
+FROM python:3.8
+RUN pip install 'apache-airflow[postgres]==2.1.4' && pip install dbt
+RUN pip install SQLAlchemy
+RUN pip install apache-airflow-providers-postgres
+RUN pip install apache-airflow-providers-mysql
+RUN pip install dbt-mysql
+RUN pip install mysql-connector-python
 
+RUN mkdir /project
+COPY scripts_airflow/ /project/scripts/
 
-RUN mkdir /sensordataelt
-
-COPY requirements.txt /sensordataelt/requirements.txt
-RUN pip install -r /sensordataelt/requirements.txt 
-
-COPY scripts_airflow/ /sensordataelt/scripts/
-COPY scripts/Create_DWH.py /sensordataelt/scripts/Create_DWH.py
-
-COPY sensor-data-dbt/profiles.yml /root/.dbt/profiles.yml 
-
-
-
-
-RUN chmod +x /sensordataelt/scripts/init.sh
-ENTRYPOINT [ "/sensordataelt/scripts/init.sh" ]
+RUN chmod +x /project/scripts/init.sh
+ENTRYPOINT [ "/project/scripts/init.sh" ]

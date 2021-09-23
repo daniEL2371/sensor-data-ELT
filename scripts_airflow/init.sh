@@ -12,6 +12,7 @@ DBT_POSTGRESQL_CONN="postgresql+psycopg2://${DBT_POSTGRES_USER}:${DBT_POSTGRES_P
 cd /dbt && dbt compile
 rm -f /airflow/airflow-webserver.pid
 
+airflow users  create --role Admin --username admin --email danielzelalemheru@gmail.com --firstname admin --lastname admin --password admin
 sleep 10
 airflow upgradedb
 sleep 10

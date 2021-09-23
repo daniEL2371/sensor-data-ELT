@@ -8,7 +8,7 @@ from airflow.utils.dates import timedelta
 default_args = {
     'owner': 'astronomer',
     'depends_on_past': False,
-    'start_date': datetime(2020, 9, 22),
+    'start_date': datetime(2021, 9, 23),
     'email': ['noreply@astronomer.io'],
     'email_on_failure': False,
     'email_on_retry': False,
@@ -25,13 +25,13 @@ dag = DAG(
 
 dbt_run = BashOperator(
     task_id='dbt_run',
-    bash_command='cd sensor-data-dbt; dbt run',
+    bash_command='pwd',
     dag=dag
 )
 
 dbt_test = BashOperator(
     task_id='dbt_test',
-    bash_command='cd sensor-data-dbt; dbt test',
+    bash_command='ls',
     dag=dag
 )
 
