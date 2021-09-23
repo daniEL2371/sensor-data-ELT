@@ -31,7 +31,7 @@ dbt_run = BashOperator(
 
 dbt_test = BashOperator(
     task_id='dbt_test',
-    bash_command='ls',
+    bash_command='ls /var/lib/mysql-files/',
     dag=dag
 )
 

@@ -21,21 +21,24 @@ dag = DAG(
     'data_load_dag',
     default_args=default_args,
     description='An Airflow DAG to invoke simple dbt commands',
-    schedule_interval=timedelta(days=1),
+    schedule_interval='@once',
     # schedule_interval='*/ * * * *'
 )
 
 
 create_table_mysql_task = MySqlOperator(
-    task_id='create_table_mysql',
+    task_id='raw_observation',
     mysql_conn_id='mysql_conn_id',
-    sql=r"""CREATE TABLE  test_table (fname VARCHAR(20), lname VARCHAR(20));""",
+    sql='./create_table.sql',
     dag=dag
 )
 
-dbt_run = BashOperator(
-    task_id='data_load',
-    bash_command='echo helloworld',
+
+dbt_run = MySqlOperator(
+    task_id='raw_data_loader',
+    mysql_conn_id='mysql_conn_id',
+    sql='./insert_obs.sql',
     dag=dag
 )
+create_table_mysql_task >> dbt_run
 

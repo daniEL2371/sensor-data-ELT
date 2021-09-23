@@ -24,9 +24,9 @@ services:
      MYSQL_DATABASE: analytics
     expose:
       - 3310
-    restart: always
     volumes:
-      - ./sample_data:/sample_data
+      - ./mysql.cnf:/etc/mysql/mysql.cnf  
+      - ./data:/var/lib/mysql-files/
 
   airflow:
     build: .
@@ -48,7 +48,7 @@ services:
       # postgres-dbt connection details. Required for the inital loading of seed data
       # Credentials need to match with service postgres-dbt
       
-      DBT_MYSQL_USER: dbtuser,
+      DBT_MYSQL_USER: root
       DBT_MYSQL_PASSWORD: pssd
       DBT_MYSQL_HOST: mysql-dbt
       MYSQL_PORT: 3306
