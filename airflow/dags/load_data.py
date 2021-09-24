@@ -26,19 +26,37 @@ dag = DAG(
 )
 
 
-create_table_mysql_task = MySqlOperator(
-    task_id='raw_observation',
+create_statation_mysql_task = MySqlOperator(
+    task_id='create_satations',
+    mysql_conn_id='mysql_conn_id',
+    sql='./create_stations.sql',
+    dag=dag
+)
+
+
+load_statation = MySqlOperator(
+    task_id='load_station_data',
+    mysql_conn_id='mysql_conn_id',
+    sql='./insert_stations.sql',
+    dag=dag
+)
+
+create_obs_table_mysql_task = MySqlOperator(
+    task_id='raw_observations_creator',
     mysql_conn_id='mysql_conn_id',
     sql='./create_table.sql',
     dag=dag
 )
 
 
-dbt_run = MySqlOperator(
+load_obs_data = MySqlOperator(
     task_id='raw_data_loader',
     mysql_conn_id='mysql_conn_id',
     sql='./insert_obs.sql',
     dag=dag
 )
-create_table_mysql_task >> dbt_run
+
+
+create_obs_table_mysql_task >> load_obs_data
+create_statation_mysql_task >> load_statation
 
