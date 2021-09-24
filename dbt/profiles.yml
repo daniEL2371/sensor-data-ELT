@@ -4,8 +4,8 @@ default:
     dev:
       type: mysql
       server: mysql-dbt
-      username: dbtuser
+      username: root
       password: pssd
-      port: 3310
+      port: 3306
       schema: analytics
       threads: 4
