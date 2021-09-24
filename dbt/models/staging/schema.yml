@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: stations_summary
+    description: "A metadata information about 53 stations"
