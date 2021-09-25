@@ -56,7 +56,23 @@ load_obs_data = MySqlOperator(
     dag=dag
 )
 
+create_station_summary_table_mysql_task = MySqlOperator(
+    task_id='station_summary_creator',
+    mysql_conn_id='mysql_conn_id',
+    sql='./create_station_summary_table.sql',
+    dag=dag
+)
+
+
+load_station_summary_data = MySqlOperator(
+    task_id='station_summary_loader',
+    mysql_conn_id='mysql_conn_id',
+    sql='./insert_station_summary_data.sql',
+    dag=dag
+)
+
 
 create_obs_table_mysql_task >> load_obs_data
 create_statation_mysql_task >> load_statation
+create_station_summary_table_mysql_task >> load_station_summary_data
 
