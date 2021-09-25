@@ -41,4 +41,11 @@ dbt_test = BashOperator(
     dag=dag
 )
 
+docs = BashOperator(
+    task_id='documentation',
+    bash_command='cd /dbt && dbt docs generate',
+    dag=dag
+)
+
 dbt_debug >> dbt_run >> dbt_test
+dbt_run >> docs

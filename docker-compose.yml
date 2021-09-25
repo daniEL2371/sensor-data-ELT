@@ -1,4 +1,13 @@
 version: '3'
+
+x-redash-service: &redash-service
+  image: redash/redash:latest
+  depends_on:
+    - postgres-redash
+    - redis
+  env_file: redash.env
+  restart: always
+
 services:
   postgres-airflow:
     image: postgres
@@ -14,6 +23,12 @@ services:
     volumes:
       - ./scripts_postgres:/docker-entrypoint-initdb.d
       # - ./sample_data:/sample_data
+  postgres-redash:
+    image: postgres
+    env_file: redash.env
+    restart: always
+    expose:
+      - 5432
 
   mysql-dbt:
     image: mysql
@@ -79,4 +94,33 @@ services:
     depends_on:
       - postgres-airflow
       - mysql-dbt
+
+  server:
+    <<: *redash-service
+    command: server
+    ports:
+      - 5000:5000
+    environment:
+      REDASH_WEB_WORKERS: 4
+  scheduler:
+    <<: *redash-service
+    command: scheduler
+    environment:
+      QUEUES: "celery"
+      WORKERS_COUNT: 1
+  scheduled_worker:
+    <<: *redash-service
+    command: worker
+    environment:
+      QUEUES: "scheduled_queries,schemas"
+      WORKERS_COUNT: 1
+  adhoc_worker:
+    <<: *redash-service
+    command: worker
+    environment:
+      QUEUES: "queries"
+      WORKERS_COUNT: 2
+  redis:
+    image: redis:latest
+    restart: always
 
