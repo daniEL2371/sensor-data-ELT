@@ -16,16 +16,16 @@ services:
       # - ./sample_data:/sample_data
 
   mysql-dbt:
-    image: mysql:5.7
+    image: mysql
     environment:
      MYSQL_USER: dbtuser,
      MYSQL_PASSWORD: pssd
      MYSQL_ROOT_PASSWORD: pssd
      MYSQL_DATABASE: analytics
-    expose:
-      - 3310
+    ports:
+      - 3310:3306
     volumes:
-      - ./mysql.cnf:/etc/mysql/mysql.cnf  
+      - ./my.cnf:/etc/mysql/my.cnf  
       - ./data:/var/lib/mysql-files/
 
   airflow:
