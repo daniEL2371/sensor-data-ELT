@@ -9,10 +9,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/daniEL2371/sensor-data-ELT">
-    <img src="images/design.png" alt="Logo" width="1000" height="400">
-  </a>
-
   <h3 align="center">Sensor Data ELT</h3>
 
   <p align="center">
@@ -152,5 +148,5 @@ Daniel Zelalem - [@your_twitter](https://twitter.com/your_username) - danielzela
 [license-url]: https://github.com/daniEL2371/sensor_data_elt/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/architecture.png
+[product-screenshot]: images/design.png
 
