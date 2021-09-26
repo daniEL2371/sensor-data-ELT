@@ -101,6 +101,13 @@ Make sure you have docker installed on local machine.
    ```JS
    Navigate to `http://localhost:5000/` on the browser
    ```
+5. Access your mysql database using adminar
+   ```JS
+   Navigate to `http://localhost:8080/` on the browser
+   choose mysql databse
+   use `root` for username
+   use `pssd` for password
+   ```
 
 <!-- CONTRIBUTING -->
 ## Contributing
