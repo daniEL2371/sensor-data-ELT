@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/daniEL2371/sensor-data-ELT">
-    <img src="images/design.png" alt="Logo" width="80" height="80">
+    <img src="images/design.png" alt="Logo" width="400" height="400">
   </a>
 
   <h3 align="center">Sensor Data ELT</h3>
