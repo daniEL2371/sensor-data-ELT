@@ -14,7 +14,7 @@
   <p align="center">
     A fully dockerized ELT pipeline project, using MYSQL, dbt, Apache Airflow, and Redash.
     <br />
-    <a href="https://github.com/daniEL2371/sensor-data-ELT"><strong>Explore the docs »</strong></a>
+    <a href="https://sensor-data-elt.herokuapp.com/index.html#!/overview"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/daniEL2371/sensor-data-ELT">View Demo</a>
