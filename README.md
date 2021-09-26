@@ -125,7 +125,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Daniel Zelalem - [@your_twitter](https://twitter.com/your_username) - danielzelalemheru@gmail.com
+Daniel Zelalem - [@email](https://twitter.com/your_username) - danielzelalemheru@gmail.com
 
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -136,16 +136,16 @@ Daniel Zelalem - [@your_twitter](https://twitter.com/your_username) - danielzela
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/daniEL2371/sensor_data_elt.svg?style=for-the-badge
-[contributors-url]: https://github.com/daniEL2371/sensor_data_elt/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/daniEL2371/sensor_data_elt.svg?style=for-the-badge
-[forks-url]: https://github.com/daniEL2371/sensor_data_elt/network/members
-[stars-shield]: https://img.shields.io/github/stars/daniEL2371/sensor_data_elt.svg?style=for-the-badge
-[stars-url]: https://github.com/daniEL2371/sensor_data_elt/stargazers
-[issues-shield]: https://img.shields.io/github/issues/daniEL2371/sensor_data_elt.svg?style=for-the-badge
-[issues-url]: https://github.com/daniEL2371/sensor_data_elt/issues
-[license-shield]: https://img.shields.io/github/license/daniEL2371/sensor_data_elt.svg?style=for-the-badge
-[license-url]: https://github.com/daniEL2371/sensor_data_elt/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/daniEL2371/sensor-data-ELT.svg?style=for-the-badge
+[contributors-url]: https://github.com/daniEL2371/sensor-data-ELT/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/daniEL2371/sensor-data-ELT.svg?style=for-the-badge
+[forks-url]: https://github.com/daniEL2371/sensor-data-ELT/network/members
+[stars-shield]: https://img.shields.io/github/stars/daniEL2371/sensor-data-ELT.svg?style=for-the-badge
+[stars-url]: https://github.com/daniEL2371/sensor-data-ELT/stargazers
+[issues-shield]: https://img.shields.io/github/issues/daniEL2371/sensor-data-ELT.svg?style=for-the-badge
+[issues-url]: https://github.com/daniEL2371/sensor-data-ELT/issues
+[license-shield]: https://img.shields.io/github/license/daniEL2371/sensor-data-ELT.svg?style=for-the-badge
+[license-url]: https://github.com/daniEL2371/sensor-data-ELT/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/design.png
