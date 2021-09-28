@@ -29,11 +29,17 @@ def create_mysql_connection():
 def get_record_count(table_name):
    engine = create_mysql_connection()
    conn = engine.connect()
-   query = f'SELECT COUNT(*) FROM {table_name}'
+   query = text(f'SELECT COUNT(*) FROM {table_name}')
    result = conn.execute(query)
    return result.fetchone()[0]
 
 
+def get_src_table_names():
+   engine = create_mysql_connection()
+   conn = engine.connect()
+   query = text(f'show tables')
+   result = conn.execute(query)
+   return result.fetchall()
 
 
 
@@ -65,6 +71,8 @@ default_args = {
     'retry_delay': timedelta(minutes=5)
 }
 
+
+
 dag = DAG(
     'data_migration_to_postgres',
     default_args=default_args,
@@ -73,33 +81,18 @@ dag = DAG(
     # schedule_interval='*/ * * * *'
 )
 
+table_names = get_src_table_names()
 
-migrate_station_summary = PythonOperator(
-    task_id='migrate_station_summary',
-    python_callable=select_src_data,
-    op_kwargs={'table_name': 'analytics.Station_Summary' },
-    dag=dag
-)
+for table_name_obj in table_names:
+    table_name = table_name_obj[0]
+    
+    PythonOperator(
+        task_id=f'migrate_{table_name}',
+        python_callable=select_src_data,
+        op_kwargs={'table_name': table_name },
+        dag=dag
+    )
 
-migrate_I80Stations= PythonOperator(
-    task_id='migrate_I80Stations',
-    python_callable=select_src_data,
-    op_kwargs={'table_name': 'analytics.I80Stations' },
-    dag=dag
-)
 
-migrate_merged_station_summary = PythonOperator(
-    task_id='migrate_merged_station_summary',
-    python_callable=select_src_data,
-    op_kwargs={'table_name': 'analytics.merged_station_summary	' },
-    dag=dag
-)
-
-migrate__raw_observations = PythonOperator(
-    task_id='migrate__raw_observations',
-    python_callable=select_src_data,
-    op_kwargs={'table_name': 'analytics.raw_observations	' },
-    dag=dag
-)
 
 
