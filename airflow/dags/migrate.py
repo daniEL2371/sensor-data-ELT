@@ -9,7 +9,8 @@ from airflow.utils.dates import timedelta
 from airflow.operators.python import PythonOperator, PythonVirtualenvOperator
 
 import mysql.connector as mysql
-from sqlalchemy import create_engine, types
+from sqlalchemy import create_engine, types, text
+import json
 
 mysql_user = 'root'
 mysql_password = 'pssd'
@@ -17,13 +18,41 @@ mysql_host = 'mysql-dbt'
 mysql_db_name = 'analytics'
 mysql_port = 3306
 
-def connect_to_mysql():
+selec_batch_size = 100000
 
-    print("yee")
+def create_mysql_connection():
+
     connection = f'mysql+pymysql://{mysql_user}:{mysql_password}@{mysql_host}:{mysql_port}/{mysql_db_name}'
     engine = create_engine(connection)
-    print("hhe")
-  
+    return engine
+
+def get_record_count(table_name):
+   engine = create_mysql_connection()
+   conn = engine.connect()
+   query = f'SELECT COUNT(*) FROM {table_name}'
+   result = conn.execute(query)
+   return result.fetchone()[0]
+
+
+
+
+
+def select_src_data(**kwargs):
+    table_name = kwargs['table_name']
+
+    engine = create_mysql_connection()
+    conn = engine.connect()
+    row_count = get_record_count(f'{table_name}')
+
+    cur = 0
+    while cur < row_count :
+        query = text(f'select * from {table_name} Limit {cur}, {selec_batch_size}')
+        result = conn.execute(query)
+        json_res  = json.dumps([dict(r) for r in result])
+        cur += selec_batch_size
+
+        # todo move the data to postgres
+    print("select statment finished")
 
 default_args = {
     'owner': '10Academy',
@@ -45,9 +74,31 @@ dag = DAG(
 )
 
 
-connect_to_mysql = PythonOperator(
-    task_id='connect_to_mysql',
-    python_callable=connect_to_mysql,
+migrate_station_summary = PythonOperator(
+    task_id='migrate_station_summary',
+    python_callable=select_src_data,
+    op_kwargs={'table_name': 'analytics.Station_Summary' },
+    dag=dag
+)
+
+migrate_I80Stations= PythonOperator(
+    task_id='migrate_I80Stations',
+    python_callable=select_src_data,
+    op_kwargs={'table_name': 'analytics.I80Stations' },
+    dag=dag
+)
+
+migrate_merged_station_summary = PythonOperator(
+    task_id='migrate_merged_station_summary',
+    python_callable=select_src_data,
+    op_kwargs={'table_name': 'analytics.merged_station_summary	' },
+    dag=dag
+)
+
+migrate__raw_observations = PythonOperator(
+    task_id='migrate__raw_observations',
+    python_callable=select_src_data,
+    op_kwargs={'table_name': 'analytics.raw_observations	' },
     dag=dag
 )
 
