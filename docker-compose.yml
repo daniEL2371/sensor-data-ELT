@@ -82,11 +82,12 @@ services:
       ## this is unnessacry
       
       DBT_POSTGRES_PASSWORD: pssd
-      DBT_POSTGRES_USER : dbtuser,
-      DBT_POSTGRES_DB : dbtdb
+      DBT_POSTGRES_USER : dbtuser
+      DBT_POSTGRES_DB : analytics
+      
       DBT_DBT_SCHEMA: dbt
       DBT_DBT_RAW_DATA_SCHEMA: dbt_raw_data
-      DBT_POSTGRES_HOST: mysql-dbt
+      DBT_POSTGRES_HOST: postgres-db
     depends_on:
       - postgres-airflow
       - mysql-dbt
@@ -105,6 +106,12 @@ services:
       - postgres-airflow
       - mysql-dbt
       - postgres-db
+  
+  superset:
+    image: tylerfowler/superset
+    restart: always
+    ports:
+      - "8088:8088"
 
   server:
     <<: *redash-service

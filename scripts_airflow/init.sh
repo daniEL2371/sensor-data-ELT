@@ -19,6 +19,8 @@ sleep 10
 airflow db upgrade
 sleep 10
 
+
 airflow connections add 'mysql_conn_id'  --conn-uri "mysql+mysqldb://${DBT_MYSQL_USER}:${DBT_MYSQL_PASSWORD}@${DBT_MYSQL_HOST}:${MYSQL_PORT}/${DBT_MYSQL_DB}"
+airflow connections add 'postgres_conn_id' --conn-uri $DBT_POSTGRESQL_CONN
 
 airflow scheduler & airflow webserver

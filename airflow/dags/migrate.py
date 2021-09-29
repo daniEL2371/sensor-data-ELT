@@ -4,12 +4,15 @@ from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
 
 from airflow.operators.mysql_operator import MySqlOperator
+from airflow.providers.postgres.operators.postgres import PostgresOperator
+
 from airflow.utils.dates import datetime
 from airflow.utils.dates import timedelta
 from airflow.operators.python import PythonOperator, PythonVirtualenvOperator
 
 import mysql.connector as mysql
 from sqlalchemy import create_engine, types, text
+import pandas as pd
 import json
 
 mysql_user = 'root'
@@ -17,6 +20,12 @@ mysql_password = 'pssd'
 mysql_host = 'mysql-dbt'
 mysql_db_name = 'analytics'
 mysql_port = 3306
+
+postgres_user = 'dbtuser'
+postgres_password = 'pssd'
+postgres_host = 'postgres-db'
+postgres_db_name = 'analytics'
+postgres_port = 5432
 
 selec_batch_size = 100000
 
@@ -34,30 +43,35 @@ def get_record_count(table_name):
    return result.fetchone()[0]
 
 
+def load_to_postgres(mysql_df, table_name):
+    mysql_df.columns= mysql_df.columns.str.lower()
+    conn_str = f'postgresql+psycopg2://{postgres_user}:{postgres_password}@{postgres_host}:{postgres_port}/{postgres_db_name}'
+    engine = create_engine(conn_str)
+    mysql_df.to_sql(table_name.lower(), con=engine, index=False, if_exists='append')
+    
+
+
 def get_src_table_names():
    engine = create_mysql_connection()
    conn = engine.connect()
    query = text(f'show tables')
    result = conn.execute(query)
-   return result.fetchall()
+   return ['Station_Summary', 'I80Stations', 'raw_observations']
 
 
 
-def select_src_data(**kwargs):
+def migrate(**kwargs):
     table_name = kwargs['table_name']
 
     engine = create_mysql_connection()
-    conn = engine.connect()
     row_count = get_record_count(f'{table_name}')
 
     cur = 0
     while cur < row_count :
-        query = text(f'select * from {table_name} Limit {cur}, {selec_batch_size}')
-        result = conn.execute(query)
-        json_res  = json.dumps([dict(r) for r in result])
+        query = f'select * from {table_name} Limit {cur}, {selec_batch_size}'
+        result_df = pd.read_sql(query, con=engine)
+        load_to_postgres(result_df, table_name)
         cur += selec_batch_size
-
-        # todo move the data to postgres
     print("select statment finished")
 
 default_args = {
@@ -81,17 +95,62 @@ dag = DAG(
     # schedule_interval='*/ * * * *'
 )
 
-table_names = get_src_table_names()
 
-for table_name_obj in table_names:
-    table_name = table_name_obj[0]
+
+create_statation_postgres_task = PostgresOperator(
+    task_id='create_statation_postgres_task',
+    postgres_conn_id='postgres_conn_id',
+    sql='./postgresSql/create_stations.sql',
+    dag=dag
+)
+
+
+create_obs_postgres_task = PostgresOperator(
+    task_id='raw_observations_task',
+    postgres_conn_id='postgres_conn_id',
+    sql='./postgresSql/create_table.sql',
+    dag=dag
+)
+
+create_station_summary_postgres_task = PostgresOperator(
+    task_id='create_station_summary_postgres_task',
+    postgres_conn_id='postgres_conn_id',
+    sql='./postgresSql/create_station_summary_table.sql',
+    dag=dag
+)
+
+
+
+
+
+
+migrate_station_summary = PythonOperator(
+    task_id=f'migrate_station_summary',
+    python_callable=migrate,
+    op_kwargs={'table_name': 'Station_Summary' },
+    dag=dag
+)
+
+migrate_station_metadata = PythonOperator(
+    task_id=f'migrate_station_metadata',
+    python_callable=migrate,
+    op_kwargs={'table_name': 'I80Stations' },
+    dag=dag
+)
+
+migrate_observation = PythonOperator(
+    task_id=f'migrate_observation',
+    python_callable=migrate,
+    op_kwargs={'table_name': 'raw_observations' },
+    dag=dag
+)
     
-    PythonOperator(
-        task_id=f'migrate_{table_name}',
-        python_callable=select_src_data,
-        op_kwargs={'table_name': table_name },
-        dag=dag
-    )
+
+create_statation_postgres_task >> migrate_station_metadata
+create_obs_postgres_task >> migrate_observation 
+create_station_summary_postgres_task >> migrate_station_summary
+
+
 
 
 
