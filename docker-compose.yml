@@ -106,6 +106,12 @@ services:
       - postgres-airflow
       - mysql-dbt
       - postgres-db
+  
+  superset:
+    image: tylerfowler/superset
+    restart: always
+    ports:
+      - "8088:8088"
 
   server:
     <<: *redash-service

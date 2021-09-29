@@ -1,0 +1,5 @@
+CREATE TABLE  IF NOT EXISTS `test_table` (
+  `fname` VARCHAR(20),
+  `lname` VARCHAR(20)
+ 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
