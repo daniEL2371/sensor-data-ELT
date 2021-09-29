@@ -7,6 +7,8 @@ RUN pip install dbt-mysql
 RUN pip install mysql-connector-python
 RUN pip install sqlalchemy
 RUN pip install pymysql
+RUN pip install pandas
+
 
 RUN mkdir /project
 COPY scripts_airflow/ /project/scripts/
