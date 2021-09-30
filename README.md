@@ -154,12 +154,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Daniel Zelalem - [@email](https://twitter.com/your_username) - danielzelalemheru@gmail.com
+Daniel Zelalem - danielzelalemheru@gmail.com
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [10 Academy](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [10 Academy](https://www.10academy.org/)
 
 
 
