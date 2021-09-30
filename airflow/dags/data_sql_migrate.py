@@ -9,8 +9,6 @@ from airflow.operators.python import PythonOperator, PythonVirtualenvOperator
 
 
 
-
-
 default_args = {
     'owner': '10Academy',
     'depends_on_past': False,
