@@ -105,7 +105,7 @@ Make sure you have docker installed on local machine.
    ```JS
    Navigate to `http://localhost:8080/` on the browser
    use `postgres` databse
-   use `postgres-dbt` databse
+   use `postgres-dbt` server
    use `dbtuser` for username
    use `pssd` for password
    ```
