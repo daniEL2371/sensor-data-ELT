@@ -12,7 +12,7 @@
   <h3 align="center">Sensor Data ELT</h3>
 
   <p align="center">
-    A fully dockerized ELT pipeline project, using MYSQL, dbt, Apache Airflow, and Redash.
+    A fully dockerized ELT pipeline project, using Postgres, MYSQL, dbt, Apache Airflow,  Redash and Superset.
     <br />
     <a href="https://sensor-data-elt.herokuapp.com/index.html#!/overview"><strong>Explore the docs »</strong></a>
     <br />
