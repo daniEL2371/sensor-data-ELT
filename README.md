@@ -64,12 +64,12 @@ A fully dockerized using a docker-compose file ELT pipeline using MySQL, Postgre
 ### Built With
 
 Tech Stack used in this project
-* [Postgres](https://getbootstrap.com)
-* [MYSQL](https://getbootstrap.com)
-* [Apache Airflow](https://jquery.com)
-* [dbt](https://laravel.com)
-* [Redash](https://laravel.com)
-* [Superset](https://laravel.com)
+* [Postgres](https://www.postgresql.org/)
+* [MYSQL](https://www.mysql.com/)
+* [Apache Airflow](https://airflow.apache.org/)
+* [dbt](https://www.getdbt.com/)
+* [Redash](https://redash.io/)
+* [Superset](https://superset.apache.org/)
 
 
 
