@@ -60,14 +60,17 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-A fully dockerized using a docker-compose file ELT pipeline using MySQL, Airflow, DBT and Redash. used MySQL for data storage. used DBT for data transforming and airflow for automation and orchestrations. A redash dasboard is built by connecting it to mysql databse.
+A fully dockerized using a docker-compose file ELT pipeline using MySQL, PostgresSQL, Airflow, DBT, Redash and Superset. used MySQL and Postgres for data ware house. used DBT for data transforming and airflow for automation and orchestrations. A redash and Superset dasboard is built by connecting it to our data ware .
 ### Built With
 
 Tech Stack used in this project
+* [Postgres](https://getbootstrap.com)
 * [MYSQL](https://getbootstrap.com)
 * [Apache Airflow](https://jquery.com)
 * [dbt](https://laravel.com)
 * [Redash](https://laravel.com)
+* [Superset](https://laravel.com)
+
 
 
 <!-- GETTING STARTED -->
@@ -94,20 +97,42 @@ Make sure you have docker installed on local machine.
 3. Open Airflow web browser
    ```JS
    Navigate to `http://localhost:8000/` on the browser
-   activate and trigger dbt_load_dag
+   activate and trigger load_data dag
+   activate and trigger migrate_data dag
    activate and trigger dbt_dbt_dag
    ```
-4. Access redash dashboard
-   ```JS
-   Navigate to `http://localhost:5000/` on the browser
-   ```
-5. Access your mysql database using adminar
+4. Access your Postgres database using adminar
    ```JS
    Navigate to `http://localhost:8080/` on the browser
-   choose mysql databse
-   use `root` for username
+   use `postgres` databse
+   use `postgres-dbt` databse
+   use `dbtuser` for username
    use `pssd` for password
    ```
+5. Access redash dashboard
+   ```sh
+    open new terminal
+    docker-compose run — rm server create_db
+   ```
+   ```JS
+  Open pstgres-dbt using adminar
+  Create a user for analytics database
+  CREATE USER 'redash'@'' IDENTIFIED WITH mysql_native_password BY 'root';
+  
+  Grant all privilages for analytics database
+  GRANT ALL PRIVILEGES ON analytics.* To 'redash'@'';
+   ```
+  ```JS
+   Navigate to `http://localhost:5000/` on the browser
+   Login and use your created user on analytics databse to connect to your databse
+   ```
+6. Access Superset dashboard
+   ```JS
+   Navigate to `http://localhost:8088/` on the browser
+   use `root` for username
+   use `roor` for password
+  ```JS
+  
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -154,6 +179,5 @@ Daniel Zelalem - [@email](https://twitter.com/your_username) - danielzelalemheru
 [license-shield]: https://img.shields.io/github/license/daniEL2371/sensor-data-ELT.svg?style=for-the-badge
 [license-url]: https://github.com/daniEL2371/sensor-data-ELT/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/design.png
+[linkedin-url]: www.linkedin.com/in/daniel2371
 
