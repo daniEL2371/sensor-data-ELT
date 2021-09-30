@@ -177,6 +177,6 @@ Daniel Zelalem - danielzelalemheru@gmail.com
 [license-url]: https://github.com/daniEL2371/sensor-data-ELT/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/daniel2371
-[product-screenshot]: Screen Shot 2021-09-30 at 23.06.38.png
+[product-screenshot]: https://github.com/daniEL2371/sensor-data-ELT/blob/3418ea1749b0016ccff379d9b145f7eab862b32a/images/Screen%20Shot%202021-09-30%20at%2023.06.38.png
 
 
