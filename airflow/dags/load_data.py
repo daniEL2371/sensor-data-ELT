@@ -7,6 +7,7 @@ from airflow.operators.mysql_operator import MySqlOperator
 from airflow.utils.dates import datetime
 from airflow.utils.dates import timedelta
 
+
 default_args = {
     'owner': '10Academy',
     'depends_on_past': False,
@@ -29,7 +30,7 @@ dag = DAG(
 create_statation_mysql_task = MySqlOperator(
     task_id='create_satations',
     mysql_conn_id='mysql_conn_id',
-    sql='./create_stations.sql',
+    sql='./mysqlSql/create_stations.sql',
     dag=dag
 )
 
@@ -37,14 +38,14 @@ create_statation_mysql_task = MySqlOperator(
 load_statation = MySqlOperator(
     task_id='load_station_data',
     mysql_conn_id='mysql_conn_id',
-    sql='./insert_stations.sql',
+    sql='./mysqlSql/insert_stations.sql',
     dag=dag
 )
 
 create_obs_table_mysql_task = MySqlOperator(
     task_id='raw_observations_creator',
     mysql_conn_id='mysql_conn_id',
-    sql='./create_table.sql',
+    sql='./mysqlSql/create_table.sql',
     dag=dag
 )
 
