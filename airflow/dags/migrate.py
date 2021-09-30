@@ -15,6 +15,10 @@ from sqlalchemy import create_engine, types, text
 import pandas as pd
 import json
 
+import sys
+sys.path.insert(0, "/airflow/dags/scripts")
+import scripts.mysql_converter as mysql_converter
+
 mysql_user = 'root'
 mysql_password = 'pssd'
 mysql_host = 'mysql-dbt'
@@ -59,6 +63,11 @@ def get_src_table_names():
    return ['Station_Summary', 'I80Stations', 'raw_observations']
 
 
+
+def migrate_sql_statemtents(**kwargs):
+  src_path = kwargs['src_path']
+  tgt_path = kwargs['tgt_path']
+  mysql_converter.convert_create_statements(src_path, tgt_path)
 
 def migrate(**kwargs):
     table_name = kwargs['table_name']
@@ -146,9 +155,16 @@ migrate_observation = PythonOperator(
 )
     
 
-create_statation_postgres_task >> migrate_station_metadata
-create_obs_postgres_task >> migrate_observation 
-create_station_summary_postgres_task >> migrate_station_summary
+export_sql_statments = PythonOperator(
+    task_id='export_sql_statments',
+    python_callable=migrate_sql_statemtents,
+    op_kwargs={'src_path':  "/airflow/dags/mysqlSql/", 'tgt_path': "/airflow/dags/postgresSql/"},
+    dag=dag
+)
+
+export_sql_statments >> create_statation_postgres_task >> migrate_station_metadata
+export_sql_statments >> create_obs_postgres_task >> migrate_observation 
+export_sql_statments >> create_station_summary_postgres_task >> migrate_station_summary
 
 
 

@@ -8,9 +8,7 @@ from airflow.utils.dates import timedelta
 from airflow.operators.python import PythonOperator, PythonVirtualenvOperator
 
 
-import sys
-sys.path.insert(0, "/airflow/dags/scripts")
-import scripts.mysql_converter as mysql_converter
+
 
 
 default_args = {
