@@ -1,9 +1,9 @@
-CREATE TABLE IF NOT EXISTS Station_Summary
+create table if not exists station_summary
 ( 
-  ID INT NOT NULL,
-  flow_99 FLOAT DEFAULT 0,
-  flow_max FLOAT DEFAULT 0,
-  flow_median FLOAT DEFAULT 0,
-  flow_total FLOAT DEFAULT 0,
-  n_obs FLOAT DEFAULT 0
+  id int not null,
+  flow_99 float default 0,
+  flow_max float default 0,
+  flow_median float default 0,
+  flow_total float default 0,
+  n_obs float default 0
 );

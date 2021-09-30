@@ -7,16 +7,10 @@ from airflow.utils.dates import datetime
 from airflow.utils.dates import timedelta
 from airflow.operators.python import PythonOperator, PythonVirtualenvOperator
 
-from airflow.operators.bash_operator import BashOperator
 
 import sys
-sys.path.insert(0,"/airflow/dags/scripts")
-import scripts.redash_export_query as redash_export_query
-
-
-redash_api = 'F23HKin8rRi9nNmuf7m20X2QFqvmv93atp8BKZ9c'
-redash_url = 'http://localhost:5000'
-
+sys.path.insert(0, "/airflow/dags/scripts")
+import scripts.mysql_converter as mysql_converter
 
 
 default_args = {
@@ -30,25 +24,24 @@ default_args = {
     'retry_delay': timedelta(minutes=5)
 }
 
-template = u"""/*
-Name: {name}
-Data source: {data_source}
-Created By: {created_by}
-Last Updated At: {last_updated_at}
-*/
-{query}"""
+def migrate_sql_statemtents(**kwargs):
+  src_path = kwargs['src_path']
+  tgt_path = kwargs['tgt_path']
+  mysql_converter.convert_create_statements(src_path, tgt_path)
+
 
 dag = DAG(
-    'export_redash_query',
+    'sql_migration',
     default_args=default_args,
-    description='An Airflow DAG to export redash query',
+    description='An Airflow DAG to export sql statements',
     schedule_interval='@once',
     # schedule_interval='*/ * * * *'
 )
 
 
-export_redash_data = BashOperator(
-    task_id='export_redash_data',
-    bash_command='python3 /airflow/dags/scripts/redash_export_query.py',
+export_sql_statments = PythonOperator(
+    task_id='export_sql_statments',
+    python_callable=migrate_sql_statemtents,
+    op_kwargs={'src_path':  "/airflow/dags/mysqlSql/", 'tgt_path': "/airflow/dags/postgresSql/"},
     dag=dag
 )
