@@ -60,7 +60,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-A fully dockerized using a docker-compose file ELT pipeline using MySQL, PostgresSQL, Airflow, DBT, Redash and Superset. used MySQL and Postgres for data ware house. used DBT for data transforming and airflow for automation and orchestrations. A redash and Superset dasboard is built by connecting it to our data ware .
+A fully dockerized using a docker-compose file ELT pipeline using MySQL, PostgreSQL, Airflow, DBT, Redash and Superset. used MySQL and Postgres for data ware house. used DBT for data transforming and airflow for automation and orchestrations. A redash and Superset dasboard is built by connecting it to our data ware .
 ### Built With
 
 Tech Stack used in this project
