@@ -111,18 +111,15 @@ Make sure you have docker installed on local machine.
    ```
 5. Access redash dashboard
    ```sh
-    open new terminal
-    docker-compose run — rm server create_db
+   open new terminal
+   docker-compose run — rm server create_db
+   Open pstgres-dbt using adminar
+   Create a user for analytics database
+   CREATE USER 'redash'@'' IDENTIFIED WITH mysql_native_password BY 'root';
+   Grant all privilages for analytics database
+   GRANT ALL PRIVILEGES ON analytics.* To 'redash'@'';
    ```
    ```JS
-  Open pstgres-dbt using adminar
-  Create a user for analytics database
-  CREATE USER 'redash'@'' IDENTIFIED WITH mysql_native_password BY 'root';
-  
-  Grant all privilages for analytics database
-  GRANT ALL PRIVILEGES ON analytics.* To 'redash'@'';
-   ```
-  ```JS
    Navigate to `http://localhost:5000/` on the browser
    Login and use your created user on analytics databse to connect to your databse
    ```
@@ -131,7 +128,7 @@ Make sure you have docker installed on local machine.
    Navigate to `http://localhost:8088/` on the browser
    use `root` for username
    use `roor` for password
-  ```JS
+   ```
   
 
 <!-- CONTRIBUTING -->
